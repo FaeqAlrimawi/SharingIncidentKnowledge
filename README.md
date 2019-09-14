@@ -11,9 +11,9 @@ The technique aims at generating an incident pattern from an incident instance t
 
 The implementation can be found under the package: ie.lero.spare.pattern_extraction
 
-To demonstrate the technique, you can download the executable jar for the project and execute the provided example (executable_jar/scenario1_extraction). Alternatively, you can download the project and build it then execute the example.
+To demonstrate the technique, you can download the [executable jar][4] for the project and execute the provided example. Alternatively, you can download the project and build it then execute the example.
 
-Under *executable_jar/scenario1_extraction*, the Demo for executing the extraction technique contains the following data:
+Under [Scenario 1][5], the Demo for executing the extraction technique contains the following data:
 
 >- Incident instance model file ([incidentInstance.cpi][1])
 
@@ -54,7 +54,9 @@ to execute the technique:
 // type 2 to execute the technique
 >> 2
 ```
-
+[4]:../../tree/master/executable_jar
+[5]:../../tree/master/executable_jar/DemoData/scenario1_extraction/
 [1]:../../tree/master/executable_jar/DemoData/scenario1_extraction/incidentInstance.cpi
 [2]:../../tree/master/executable_jar/DemoData/scenario1_extraction/RC1.cps
 [3]:../../tree/master/executable_jar/DemoData/scenario1_extraction/activityPatterns
+
