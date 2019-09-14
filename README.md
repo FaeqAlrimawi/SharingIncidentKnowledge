@@ -12,6 +12,7 @@ To demonstrate the technique, you can download the executable jar for the projec
 
 to execute the technique: 
 >>java -jar techniques.jar 
+
 >>1 (type 1 to execute the technique)
 
 Incident pattern instantiation technique.
@@ -24,4 +25,5 @@ To demonstrate the technique, you can download the executable jar for the projec
  
 to execute the technique: 
 >>java -jar techniques.jar 
+
 >>2 (type 2 to execute the technique)
