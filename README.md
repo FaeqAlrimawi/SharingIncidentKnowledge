@@ -15,11 +15,11 @@ To demonstrate the technique, you can download the executable jar for the projec
 
 Under *executable_jar/scenario1_extraction*, the Demo for executing the extraction technique contains the following data:
 
->- Incident instance model file (*[incidentInstance.cpi][1]*)
+>- Incident instance model file ([incidentInstance.cpi][1])
 
->- System model file (*RC1.cps*)
+>- System model file ([RC1.cps][2])
 
->- Activity pattern files under the folder *activityPatterns*
+>- Activity pattern files under the folder [activityPatterns][3]
 
 to execute the technique: 
 
@@ -56,3 +56,5 @@ to execute the technique:
 ```
 
 [1]:../../tree/master/executable_jar/DemoData/scenario1_extraction/incidentInstance.cpi
+[2]:../../tree/master/executable_jar/DemoData/scenario1_extraction/RC1.cps
+[1]:../../tree/master/executable_jar/DemoData/scenario1_extraction/activityPatterns
