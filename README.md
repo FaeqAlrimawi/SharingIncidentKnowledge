@@ -3,7 +3,7 @@
 We provide the implementation of our two techniques: incident pattern extraction and instantiation. 
 We also provide examples that can be used to demonstrate both techniques.
 
-#### Incident Pattern Extraction Technique
+### Incident Pattern Extraction Technique
 
 The technique aims at generating an incident pattern from an incident instance that occurred in a specific cyber-physical system, in particular, smart buildings.
 
@@ -19,7 +19,7 @@ to execute the technique:
 ```
 ----------
 
-#### Incident Pattern Instantiation Technique
+### Incident Pattern Instantiation Technique
 
 The technique aims at identfiying all traces (i.e. sequences of actions) in a system that satisfy a given incident pattern.
 
