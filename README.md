@@ -13,7 +13,16 @@ The implementation can be found under the package: ie.lero.spare.pattern_extract
 
 To demonstrate the technique, you can download the executable jar for the project and execute the provided example (executable_jar/scenario1_extraction). Alternatively, you can download the project and build it then execute the example.
 
+under *executable_jar/scenario1_extraction*, the Demo for executing the extraction technique contains the following data:
+
+> Incident instance model file (incidentInstance.cpi)
+
+> System model file (RC1.cps)
+
+> Activity patterns file under *activityPatterns* folder
+
 to execute the technique: 
+
 ```
 >> java -jar techniques.jar 
 
