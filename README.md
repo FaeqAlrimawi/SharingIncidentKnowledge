@@ -16,6 +16,8 @@ to execute the technique:
 
 >>1 (type 1 to execute the technique)
 
+----------
+
 -Incident pattern instantiation technique
 
 The technique aims at identfiying all traces (i.e. sequences of actions) in a system that satisfy a given incident pattern.
