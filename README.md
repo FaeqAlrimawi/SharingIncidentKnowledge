@@ -33,8 +33,8 @@ To demonstrate the technique, you can download the executable jar for the projec
  
 to execute the technique: 
 ```
->>java -jar techniques.jar 
+>> java -jar techniques.jar 
 
 // type 2 to execute the technique
->>2
+>> 2
 ```
