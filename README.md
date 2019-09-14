@@ -15,7 +15,7 @@ To demonstrate the technique, you can download the executable jar for the projec
 
 Under *executable_jar/scenario1_extraction*, the Demo for executing the extraction technique contains the following data:
 
->- Incident instance model file (*incidentInstance.cpi*)
+>- Incident instance model file (*[incidentInstance.cpi][1]*)
 
 >- System model file (*RC1.cps*)
 
@@ -54,3 +54,5 @@ to execute the technique:
 // type 2 to execute the technique
 >> 2
 ```
+
+[1]:test
