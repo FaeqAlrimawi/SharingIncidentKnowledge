@@ -55,4 +55,4 @@ to execute the technique:
 >> 2
 ```
 
-[1]:../../tree/master/executable_jar/DemoData/scenario1_extraction
+[1]:../../tree/master/executable_jar/DemoData/scenario1_extraction/incidentInstance.cpi
