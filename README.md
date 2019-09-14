@@ -1,6 +1,8 @@
 # Sharing Security Incident Knowledge in Cyber-Physical Systems
 
-We provide the implementation of our two techniques: incident pattern extraction and instantiation. 
+We prospose two automated techniques that can be used to facilitate the sharing of security incident knowledge across different cyber-physical systems.
+
+Here, we provide the implementation of the two techniques: incident pattern **extraction** and **instantiation**. 
 We also provide examples that can be used to demonstrate both techniques.
 
 ### Incident Pattern Extraction Technique
