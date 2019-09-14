@@ -13,13 +13,13 @@ The implementation can be found under the package: ie.lero.spare.pattern_extract
 
 To demonstrate the technique, you can download the executable jar for the project and execute the provided example (executable_jar/scenario1_extraction). Alternatively, you can download the project and build it then execute the example.
 
-under *executable_jar/scenario1_extraction*, the Demo for executing the extraction technique contains the following data:
+Under *executable_jar/scenario1_extraction*, the Demo for executing the extraction technique contains the following data:
 
-> Incident instance model file (incidentInstance.cpi)
+>- Incident instance model file (*incidentInstance.cpi*)
 
-> System model file (RC1.cps)
+>- System model file (*RC1.cps*)
 
-> Activity patterns file under *activityPatterns* folder
+>- Activity pattern files under the folder *activityPatterns*
 
 to execute the technique: 
 
@@ -37,9 +37,16 @@ The technique aims at identfiying all traces (i.e. sequences of actions) in a sy
 
 The implementation can be found under the package: ie.lero.spare.pattern_instantiation
 
-To demonstrate the technique, you can download the executable jar for the project and execute the provided example (executable_jar/scenario1_instantiation). Alternatively, you can download the project and build it then execute the example .
+To demonstrate the technique, you can download the executable jar for the project and execute the provided example (executable_jar/scenario2_instantiation). Alternatively, you can download the project and build it then execute the example .
 
- 
+Under *executable_jar/scenario2_instantiation*, the Demo for executing the instantiation technique contains the following data:
+
+>- Incident pattern model file (*incidentPattern.cpi*)
+
+>- System model file (*RC2.cps*), and Bigraphical Reactive Representation (BRS) of the system (*RC2.big*)
+
+>- RC2 Labelled Transition System (LTS). The LTS has 2005 states. We provide a small LTS for size considerations and just for demoing. If larger sizes are required please don't hesitate to contact us (faeq.alrimawi@lero.ie).
+
 to execute the technique: 
 ```
 >> java -jar techniques.jar 
