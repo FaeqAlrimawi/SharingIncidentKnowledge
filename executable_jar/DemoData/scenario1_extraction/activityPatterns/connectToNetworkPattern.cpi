@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cyberPhysical_Incident:ActivityPattern xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:_="" xmlns:cyberPhysical_Incident="http://www.example.org/cyberPhysical_Incident" name="connectToNetwork" Severity="MEDIUM">
+  <abstractActivity name="activity1" initiator="#offender" targetedAssets="#targetNetwork" resources="#resourceComputingDevice" exploitedAssets="#exploitedComputingDevice" location="#location1">
+    <precondition name="pre_1149">
+      <expression xsi:type="cyberPhysical_Incident:BigraphExpression">
+        <entity _:name="location1">
+          <entity _:name="offender">
+            <entity _:name="resourceComputingDevice">
+              <site/>
+            </entity>
+            <site/>
+          </entity>
+          <entity _:name="exploitedComputingDevice">
+            <connectivity name="exploitedComputingDevice-targetNetwork"/>
+            <site/>
+          </entity>
+          <site/>
+        </entity>
+      </expression>
+    </precondition>
+    <postcondition name="postcondition_1150">
+      <expression xsi:type="cyberPhysical_Incident:BigraphExpression">
+        <entity _:name="location1">
+          <entity _:name="offender">
+            <entity _:name="resourceComputingDevice">
+              <connectivity name="resourceCompDevice-exploitedCompDevice"/>
+              <connectivity name="resourceCompDevice-targetNetwork"/>
+              <site/>
+            </entity>
+            <site/>
+          </entity>
+          <entity _:name="exploitedComputingDevice">
+            <connectivity name="exploitedComputingDevice-targetNetwork"/>
+            <connectivity name="resourceCompDevice-exploitedCompDevice"/>
+            <site/>
+          </entity>
+          <site/>
+        </entity>
+        <entity _:name="targetNetwork">
+          <connectivity name="exploitedComputingDevice-targetNetwork"/>
+          <connectivity name="resourceCompDevice-targetNetwork"/>
+          <site/>
+        </entity>
+      </expression>
+    </postcondition>
+  </abstractActivity>
+  <incidententity xsi:type="cyberPhysical_Incident:Asset" connections="#//@connection.0" parentEntity="#location1" name="exploitedComputingDevice">
+    <type name="ComputingDevice"/>
+  </incidententity>
+  <incidententity xsi:type="cyberPhysical_Incident:Actor" containedEntities="#resourceComputingDevice" name="offender">
+    <type name="Actor"/>
+  </incidententity>
+  <incidententity xsi:type="cyberPhysical_Incident:Asset" connections="#//@connection.0" name="targetNetwork">
+    <type name="DigitalNetwork"/>
+  </incidententity>
+  <incidententity xsi:type="cyberPhysical_Incident:Resource" parentEntity="#offender" name="resourceComputingDevice">
+    <type name="ComputingDevice"/>
+  </incidententity>
+  <incidententity xsi:type="cyberPhysical_Incident:Asset" containedEntities="#exploitedComputingDevice" name="location1">
+    <type name="PhysicalStructure"/>
+  </incidententity>
+  <connection name="exploitedComputingDevice-targetNetwork" entity1="#exploitedComputingDevice" entity2="#targetNetwork"/>
+  <connection name="resourceCompDevice-exploitedCompDevice"/>
+  <connection name="resourceCompDevice-targetNetwork"/>
+</cyberPhysical_Incident:ActivityPattern>

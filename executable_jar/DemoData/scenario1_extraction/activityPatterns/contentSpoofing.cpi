@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cyberPhysical_Incident:ActivityPattern xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:_="" xmlns:cyberPhysical_Incident="http://www.example.org/cyberPhysical_Incident" name="content-spoofing" Severity="MEDIUM" description="modifiying content of a digital asset contained in a computing device. source: https://capec.mitre.org/data/definitions/148.html" skillsRequired="MEDIUM">
+  <abstractActivity name="spoofingActivity" initiator="#offender" targetedAssets="#originalDigitalContent" resources="#spoofingDevice" exploitedAssets="#digitalComponent">
+    <precondition name="pre_63" description="">
+      <expression xsi:type="cyberPhysical_Incident:BigraphExpression">
+        <entity _:name="offenderLocation">
+          <entity _:name="spoofingDevice">
+            <entity _:name="spoofingContent">
+              <site/>
+            </entity>
+            <site/>
+          </entity>
+          <entity _:name="offender">
+            <site/>
+          </entity>
+          <site/>
+        </entity>
+        <entity _:name="computingDeviceLocation">
+          <entity _:name="computingDevice">
+            <entity _:name="digitalComponent">
+              <entity _:name="originalDigitalContent">
+                <site/>
+              </entity>
+              <site/>
+            </entity>
+            <site/>
+          </entity>
+          <site/>
+        </entity>
+      </expression>
+    </precondition>
+    <postcondition name="postcondition_64">
+      <expression xsi:type="cyberPhysical_Incident:BigraphExpression">
+        <entity _:name="offenderLocation">
+          <entity _:name="spoofingDevice">
+            <entity _:name="spoofingContent">
+              <site/>
+            </entity>
+            <site/>
+          </entity>
+          <entity _:name="offender">
+            <site/>
+          </entity>
+          <site/>
+        </entity>
+        <entity _:name="computingDeviceLocation">
+          <entity _:name="computingDevice">
+            <entity _:name="digitalComponent">
+              <entity _:name="spoofingContent">
+                <site/>
+              </entity>
+              <site/>
+            </entity>
+            <site/>
+          </entity>
+          <site/>
+        </entity>
+      </expression>
+    </postcondition>
+  </abstractActivity>
+  <incidententity xsi:type="cyberPhysical_Incident:Asset" parentEntity="#computingDeviceLocation" containedEntities="#digitalComponent" name="computingDevice" mobility="UNKNOWN" status="">
+    <type name="ComputingDevice"/>
+  </incidententity>
+  <incidententity xsi:type="cyberPhysical_Incident:Asset" parentEntity="#digitalComponent" name="originalDigitalContent">
+    <type name="DigitalAsset"/>
+  </incidententity>
+  <incidententity xsi:type="cyberPhysical_Incident:Asset" parentEntity="#computingDevice" containedEntities="#originalDigitalContent" name="digitalComponent" mobility="FIXED">
+    <type name="DigitalAsset"/>
+  </incidententity>
+  <incidententity xsi:type="cyberPhysical_Incident:Resource" parentEntity="#offenderLocation" containedEntities="#spoofingContent" name="spoofingDevice" mobility="UNKNOWN">
+    <type name="ComputingDevice"/>
+  </incidententity>
+  <incidententity xsi:type="cyberPhysical_Incident:Actor" parentEntity="#offenderLocation" name="offender" mobility="UNKNOWN">
+    <type name="Actor"/>
+  </incidententity>
+  <incidententity xsi:type="cyberPhysical_Incident:Resource" parentEntity="#spoofingDevice" name="spoofingContent">
+    <type name="DigitalAsset"/>
+  </incidententity>
+  <incidententity xsi:type="cyberPhysical_Incident:Asset" containedEntities="#offender #spoofingDevice" name="offenderLocation" mobility="FIXED">
+    <type name="PhysicalStructure"/>
+  </incidententity>
+  <incidententity xsi:type="cyberPhysical_Incident:Asset" containedEntities="#computingDevice" name="computingDeviceLocation" mobility="FIXED">
+    <type name="PhysicalStructure"/>
+  </incidententity>
+</cyberPhysical_Incident:ActivityPattern>
