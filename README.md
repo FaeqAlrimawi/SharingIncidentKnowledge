@@ -15,7 +15,8 @@ to execute the technique:
 ```
 >> java -jar techniques.jar 
 
->> 1 (type 1 to execute the technique)
+//type 1 to execute the technique
+>> 1 
 ```
 ----------
 
@@ -32,5 +33,6 @@ to execute the technique:
 ```
 >>java -jar techniques.jar 
 
->>2 (type 2 to execute the technique)
+//type 2 to execute the technique
+>>2
 ```
