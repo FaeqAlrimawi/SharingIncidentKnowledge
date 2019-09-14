@@ -15,7 +15,7 @@ import ie.lero.spare.pattern_instantiation.IncidentPatternInstantiator;
  *
  */
 public class ScenarioExecutor {
-	
+
 	protected static void executeFromPrompt() {
 
 		// BufferedReader in = new BufferedReader(new
@@ -32,9 +32,30 @@ public class ScenarioExecutor {
 		};
 
 		int tries = 10;
+		// System.out
+		// .println("===========================================================================================");
+		System.out.println("~~~~~ Demo for the Extraction & Instantiation Techniques ~~~~~");
+		System.out.println("=== (1) Incident Pattern Extraction Technique ===");
+		System.out.println(
+				"== \"DemoData/scenario1_extraction\" folder contains data related to extraction evaluation. It contains:");
 
-		System.out.println("Enter 1 or 2 to execute incident pattern extraction (1) or incident pattern instantiation (2)");
-		System.out.println("** Data for executing the techniques should be contained under \"resources\" folder **");
+		System.out.println("\t-Incident instance model (\"incidentInstance.cpi\")");
+		System.out.println("\t-System model (\"RC1.cps\")");
+		System.out.println("\t-ActivityPatterns\" folder that contains ActivityPatterns used for extraction");
+		System.out.println();
+
+		System.out.println("=== (2) Incident Pattern Instantiation Technique ===");
+		System.out.println(
+				"== \"DemoData/scenario2_instantiation\" folder contains data related to instantiation evaluation. It contains:");
+
+		System.out.println("\t-Incident pattern model (\"incidentPattern.cpi\")");
+		System.out.println(
+				"\t-System model (\"RC2.cps\"), and Bigraphical ReactiveSystem (BRS) representation of the system (\"RC2.big\")");
+System.out.println("\t-\"RC2\" Labeled Transition System (LTS). The LTS has 2005 states. We provide a small LTS for size considerations and just for demoing. If larger sizes are required please don't hesitate to contact us (faeq.alrimawi@lero.ie)");
+		System.out.println();
+
+		System.out.println(
+				"Enter 1 or 2 to execute incident pattern extraction (1) or incident pattern instantiation (2)");
 
 		loop: while (!isDone && tries > 0) {
 			try {
@@ -73,13 +94,14 @@ public class ScenarioExecutor {
 	}
 
 	/**
-	 * execute incident pattern instantiation scenario (scenario 2 at RC2) as described in the TSE paper
+	 * execute incident pattern instantiation scenario (scenario 2 at RC2) as
+	 * described in the TSE paper
 	 */
 	protected static void executeInstantionInRC2Scenario() {
 
 		String internalTechsFolder = "../../../../executable_jar/DemoData/scenario2_instantiation/";
 		String extrnalTechsFolder = "./DemoData/scenario2_instantiation/";
-		
+
 		String incidentPatternName = "incidentPattern.cpi";
 		String systemModelName = "RC2.cps";
 		File incidentPatternFile = null;
@@ -87,10 +109,8 @@ public class ScenarioExecutor {
 		String incidentPatternFilePath = null;
 		String sysModelFilePath = null;
 
-		URL incidentPattern = IncidentPatternInstantiator.class
-				.getResource(internalTechsFolder + incidentPatternName);
-		URL sysModel = IncidentPatternInstantiator.class
-				.getResource(internalTechsFolder + systemModelName);
+		URL incidentPattern = IncidentPatternInstantiator.class.getResource(internalTechsFolder + incidentPatternName);
+		URL sysModel = IncidentPatternInstantiator.class.getResource(internalTechsFolder + systemModelName);
 
 		if (incidentPattern == null) {
 			// System.err.println("Incident pattern [" + incidentPatternName +
@@ -110,7 +130,8 @@ public class ScenarioExecutor {
 		}
 
 		if (sysModel == null) {
-//			System.err.println("System model [" + systemModelName + "] is not found.");
+			// System.err.println("System model [" + systemModelName + "] is not
+			// found.");
 			sysModelFile = new File(extrnalTechsFolder + systemModelName);
 
 			if (sysModelFile.exists()) {
@@ -131,13 +152,14 @@ public class ScenarioExecutor {
 	}
 
 	/**
-	 * Execute pattern extraction scenario (scenario 1 in RC1) as described in the TSE paper
+	 * Execute pattern extraction scenario (scenario 1 in RC1) as described in
+	 * the TSE paper
 	 */
 	protected static void executeExtractionInRC1Scenario() {
 
 		String internalTechsFolder = "../../../../executable_jar/DemoData/scenario1_extraction/";
 		String extrnalTechsFolder = "./DemoData/scenario1_extraction/";
-		
+
 		String incidentInstanceName = "incidentInstance.cpi";
 		String systemModelName = "RC1.cps";
 		String activityPatternFolder = "activityPatterns/";
@@ -156,8 +178,7 @@ public class ScenarioExecutor {
 
 		URL incidentInstance = IncidentPatternInstantiator.class
 				.getResource(internalTechsFolder + incidentInstanceName);
-		URL sysModel = IncidentPatternInstantiator.class
-				.getResource(internalTechsFolder + systemModelName);
+		URL sysModel = IncidentPatternInstantiator.class.getResource(internalTechsFolder + systemModelName);
 
 		if (incidentInstance == null) {
 
@@ -215,7 +236,7 @@ public class ScenarioExecutor {
 	}
 
 	public static void main(String[] args) {
-		
+
 		executeFromPrompt();
 	}
 

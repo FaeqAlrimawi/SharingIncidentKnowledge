@@ -256,7 +256,7 @@ public class BigraphAnalyser {
 
 	public PredicateHandler analyse() {
 
-		int numberOfThreads = Runtime.getRuntime().availableProcessors();
+		int numberOfThreads = Runtime.getRuntime().availableProcessors()/2;
 
 		return analyse(numberOfThreads);
 	}
