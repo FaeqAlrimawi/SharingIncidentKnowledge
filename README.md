@@ -57,4 +57,4 @@ to execute the technique:
 
 [1]:../../tree/master/executable_jar/DemoData/scenario1_extraction/incidentInstance.cpi
 [2]:../../tree/master/executable_jar/DemoData/scenario1_extraction/RC1.cps
-[1]:../../tree/master/executable_jar/DemoData/scenario1_extraction/activityPatterns
+[3]:../../tree/master/executable_jar/DemoData/scenario1_extraction/activityPatterns
