@@ -18,7 +18,7 @@ to execute the technique:
 // type 1 to execute the technique
 >> 1 
 ```
-----------
+
 
 ### Incident Pattern Instantiation Technique
 
