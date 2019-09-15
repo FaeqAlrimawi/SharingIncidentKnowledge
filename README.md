@@ -2,16 +2,14 @@
 
 We propose two automated techniques that can be used to facilitate the sharing of security incident knowledge across different cyber-physical systems.
 
-Here, we provide the implementation of the two techniques: incident pattern **extraction** and **instantiation**. 
-We also provide examples to demonstrate the use of both techniques.
+We provide the implementation of the two techniques: incident pattern **extraction** and **instantiation**. 
+We also give [Demo Data][4] to allow one to demonstrate the use of both techniques.
 
 ### Incident Pattern Extraction Technique
 
 The technique aims at generating an incident pattern from an incident instance that occurred in a specific cyber-physical system, in particular, smart buildings.
 
-The implementation can be found under the package: ie.lero.spare.pattern_extraction
-
-To demonstrate the technique, you can download the [executable jar][4] for the project and execute the provided example. Alternatively, you can download the project and build it then execute the example.
+To demonstrate the technique, you can download the [executable jar][4] for the project and execute it. Alternatively, you can download the project and build it then execute the example.
 
 Under [Scenario 1][5], the Demo for executing the extraction technique contains the following data:
 
