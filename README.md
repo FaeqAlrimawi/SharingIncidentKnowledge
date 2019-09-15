@@ -43,7 +43,7 @@ Under [Scenario 2][6], the Demo for executing the instantiation technique contai
 
 >- System model file ([RC2.cps][8]), and Bigraphical Reactive Representation (BRS) of the system ([RC2.big][9])
 
->- RC2 Labelled Transition System ([LTS][10]). The LTS has 2005 states. We provide a small LTS for size considerations and just for demoing. If you want to experiment with systems of larger sizes please contact us (faeq.alrimawi@lero.ie).
+>- Labelled Transition System ([LTS][10]). The LTS has 2005 states. We provide a small LTS for size considerations and just for demoing. If you want to experiment with systems of larger sizes please contact us (faeq.alrimawi@lero.ie).
 
 to execute the technique: 
 ```
