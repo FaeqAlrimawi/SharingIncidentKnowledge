@@ -22,12 +22,12 @@ Under [Scenario 1][5], the Demo for executing the extraction technique contains 
 to execute the technique: 
 
 ```console
-user@bar:~$ java -jar techniques.jar
+foo@bar:~$ java -jar techniques.jar
 
 Enter 1 or 2 to execute incident pattern extraction (1) or incident pattern instantiation (2)
 1
- 
 ```
+
 The output of this technique will be an incident model (**incidentInstance_abstract.cpi**), which is an abstract representation of the original incident instance. The output will be stored in the same place as the incident instance file, i.e. under [scenario1_extraction][5] folder.
 
 ### Incident Pattern Instantiation Technique
@@ -47,12 +47,14 @@ Under [Scenario 2][6], the Demo for executing the instantiation technique contai
 >- Labelled Transition System ([LTS][10]). The LTS has 2005 states. We provide a small LTS for size considerations and just for demoing. If you want to experiment with systems of larger sizes please contact us (faeq.alrimawi@lero.ie).
 
 to execute the technique: 
-```
->> java -jar techniques.jar 
 
-// type 2 to execute the technique
->> 2
+```console
+foo@bar:~$ java -jar techniques.jar
+
+Enter 1 or 2 to execute incident pattern extraction (1) or incident pattern instantiation (2)
+2
 ```
+
 [4]:../../tree/master/executable_jar
 [5]:../../tree/master/executable_jar/DemoData/scenario1_extraction/
 [1]:../../tree/master/executable_jar/DemoData/scenario1_extraction/incidentInstance.cpi
