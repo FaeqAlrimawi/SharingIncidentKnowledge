@@ -19,7 +19,7 @@ Under [Scenario 1][5], the Demo for executing the extraction technique contains 
 
 >- Activity pattern files under the folder [activityPatterns][3]
 
-to execute the technique: 
+To execute the technique: 
 
 ```console
 foo@bar:~$ java -jar techniques.jar
@@ -46,7 +46,7 @@ Under [Scenario 2][6], the Demo for executing the instantiation technique contai
 
 >- Labelled Transition System ([LTS][10]). The LTS has 2005 states. We provide a small LTS for size considerations and just for demoing. If you want to experiment with systems of larger sizes please contact us (faeq.alrimawi@lero.ie).
 
-to execute the technique: 
+To execute the technique: 
 
 ```console
 foo@bar:~$ java -jar techniques.jar
