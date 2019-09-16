@@ -21,7 +21,8 @@ Under [Scenario 1][5], the Demo for executing the extraction technique contains 
 
 to execute the technique: 
 
-```shell
+```console
+foo@bar:~$
 $ java -jar techniques.jar 
 
 $ 1 
