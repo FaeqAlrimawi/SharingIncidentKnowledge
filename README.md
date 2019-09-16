@@ -28,7 +28,7 @@ Enter 1 or 2 to execute incident pattern extraction (1) or incident pattern inst
 1
 ```
 
-The output of this technique will be an incident model (**incidentInstance_abstract.cpi**), which is an abstract representation of the original incident instance. The output will be stored in the same place as the incident instance file, i.e. under [scenario1_extraction][5] folder.
+The output of this technique will be an incident model (**incidentInstance_abstract.cpi**), which is an abstract representation of the original incident instance. The output will be stored in the same place as the incident instance file, i.e. under [scenario1_extraction][5] folder. The activities carried out by the technique are logged in **log** folder, which, if not created, will be created at the texecution of the technique.
 
 ### Incident Pattern Instantiation Technique
 
@@ -53,6 +53,57 @@ foo@bar:~$ java -jar techniques.jar
 
 Enter 1 or 2 to execute incident pattern extraction (1) or incident pattern instantiation (2)
 2
+```
+
+The output of the technique is the set of system traces (i.e. sequences of actions) that ssatisfy the given incident pattern. The identified traces are stored in a JSON file in folder **output** (which is created if it does not exist) under [scenario2_instantiation][6] folder. The activities carried out by the technique are logged in **log** folder, which, if not created, will be created at the texecution of the technique.
+
+Output sample:
+
+```json
+    "potential_incident_instances": {
+        "instances_count": 2,
+        "instances": [
+            {
+                "instance_id": 0,
+                "transitions": [
+                    {
+                        "action": "EnterRoom",
+                        "source": 1,
+                        "target": 64
+                    },
+                    {
+                        "action": "ConnectBusDevice",
+                        "source": 64,
+                        "target": 271
+                    },
+                    {
+                        "action": "CollectData",
+                        "source": 271,
+                        "target": 937
+                    }
+                ]
+            },
+            {
+                "instance_id": 1,
+                "transitions": [
+                    {
+                        "action": "EnterRoom",
+                        "source": 1,
+                        "target": 63
+                    },
+                    {
+                        "action": "ConnectBusDevice",
+                        "source": 63,
+                        "target": 274
+                    },
+                    {
+                        "action": "CollectData",
+                        "source": 274,
+                        "target": 946
+                    }
+                ]
+            }
+            ]}
 ```
 
 [4]:../../tree/master/executable_jar
