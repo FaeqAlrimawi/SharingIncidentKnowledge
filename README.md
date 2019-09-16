@@ -27,7 +27,7 @@ java -jar techniques.jar
 // type 1 to execute the technique
 1 
 ```
-The output of this technique will be an incident model (**incidentInstance_abstract.cpi**), which is an abstract representation of the original incident instance. The output will be stored in the same place as the incident instance file, i.e. under [scenario1_extraction][11] folder.
+The output of this technique will be an incident model (**incidentInstance_abstract.cpi**), which is an abstract representation of the original incident instance. The output will be stored in the same place as the incident instance file, i.e. under [scenario1_extraction][5] folder.
 
 ### Incident Pattern Instantiation Technique
 
