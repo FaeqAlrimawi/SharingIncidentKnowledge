@@ -52,6 +52,7 @@ To run the demo for the instantiation technique, do the following:
 ```console
 foo@bar:~$ java -jar techniques.jar
 
+...
 Enter 1 or 2 to execute incident pattern extraction (1) or incident pattern instantiation (2)
 2
 ```
