@@ -105,7 +105,7 @@ Output sample:
             }
             ]}
 ```
-The above excerpt shows the number of generated traces (2 in this case), and trace information, which consists of: 
+The above excerpt shows the number of generated traces (i.e. **instances_count:2**), and traces information. Each trace has the following: 
 >- **instance_id**, a unique identifier for the trace
 >- **transitions**, the sequence of states and actions that satify the incident pattern activities. A transition consists of: 
 >>- **action**, the system action that was invoked
