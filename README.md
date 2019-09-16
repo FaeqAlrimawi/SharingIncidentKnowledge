@@ -9,17 +9,17 @@ We also give [Demo Data][4] to allow one to use and test both techniques.
 
 The technique aims at generating an incident pattern from an incident instance that occurred in a specific cyber-physical system, in particular, smart buildings.
 
-To demonstrate the technique, you can download an exectable jar (**techniques.jar**) and associated data (**DemoData.zip**) from [here][4]. Unpack the data in the same folder as the executable jar. Alternatively, you can download the project, build it, and then execute/modify the example from class [ScenarioExecutor.java][11].
+To demonstrate the technique, you can download a demo (**demo.zip**) from [here][4]. The demo folder contains an exectable jar (**techniques.jar**) and data (under **DemoData** folder). Unpack the demo and then run the jar file. Alternatively, you can download the project, build it, and then execute/modify the example from class [ScenarioExecutor.java][11].
 
-Under [Scenario 1][5], the Demo for executing the extraction technique contains the following data:
+The data for executing the extraction technique include:
 
->- Incident instance model file ([incidentInstance.cpi][1])
+>- Incident instance model file (**incidentInstance.cpi**)
 
->- System model file ([RC1.cps][2])
+>- System model file (**RC1.cps**)
 
->- Activity pattern files under the folder [activityPatterns][3]
+>- Activity pattern files under the folder **activityPatterns**
 
-To execute the technique: 
+To run the demo for the extraction technique, do the following: 
 
 ```console
 foo@bar:~$ java -jar techniques.jar
@@ -36,9 +36,9 @@ The technique aims at identfiying all traces (i.e. sequences of actions) in a sy
 
 The implementation can be found under the package: ie.lero.spare.pattern_instantiation
 
-To demonstrate the technique, you can download an exectable jar (**techniques.jar**) and associated data (**DemoData.zip**) from [here][4]. Unpack the data in the same folder as the executable jar. Alternatively, you can download the project, build it, and then execute/modify the example from class [ScenarioExecutor.java][11].
+To demonstrate the technique, you can download a demo (**demo.zip**) from [here][4]. The demo folder contains an exectable jar (**techniques.jar**) and data (under **DemoData** folder). Unpack the demo and then run the jar file. Alternatively, you can download the project, build it, and then execute/modify the example from class [ScenarioExecutor.java][11].
 
-Under [Scenario 2][6], the Demo for executing the instantiation technique contains the following data:
+The data for executing the extraction technique include:
 
 >- Incident pattern model file ([incidentPattern.cpi][7])
 
@@ -46,7 +46,7 @@ Under [Scenario 2][6], the Demo for executing the instantiation technique contai
 
 >- Labelled Transition System ([LTS][10]). The LTS has 2005 states. We provide a small LTS for size considerations and just for demoing. If you want to experiment with systems of larger sizes please contact us (faeq.alrimawi@lero.ie).
 
-To execute the technique: 
+To run the demo for the instantiation technique, do the following:  
 
 ```console
 foo@bar:~$ java -jar techniques.jar
