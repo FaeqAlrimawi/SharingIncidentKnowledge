@@ -11,7 +11,7 @@ The technique aims at generating an incident pattern from an incident instance t
 
 To demonstrate the technique, you can download a demo (**demo.zip**) from [here][4]. The demo contains an exectable jar of both techniques (**techniques.jar**) and data (under **DemoData** folder). Unpack the demo and then run the jar file. Alternatively, you can download the project, build it, and then execute/modify the example from class [ScenarioExecutor.java][11].
 
-The data for executing the extraction technique include:
+The data for executing the extraction technique are:
 
 >- Incident instance model file (**incidentInstance.cpi**)
 
@@ -39,7 +39,7 @@ The implementation can be found under the package: ie.lero.spare.pattern_instant
 
 To demonstrate the technique, you can download a demo (**demo.zip**) from [here][4]. The demo contains an exectable jar of both techniques (**techniques.jar**) and data (under **DemoData** folder). Unpack the demo and then run the jar file. Alternatively, you can download the project, build it, and then execute/modify the example from class [ScenarioExecutor.java][11].
 
-The data for executing the extraction technique include:
+The data for executing the isntantiation technique are:
 
 >- Incident pattern model file (**incidentPattern.cpi**)
 
