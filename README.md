@@ -22,10 +22,11 @@ Under [Scenario 1][5], the Demo for executing the extraction technique contains 
 to execute the technique: 
 
 ```console
-foo@bar:~$
-$ java -jar techniques.jar 
+user@bar:~$ java -jar techniques.jar
 
-$ 1 
+Enter 1 or 2 to execute incident pattern extraction (1) or incident pattern instantiation (2)
+1
+ 
 ```
 The output of this technique will be an incident model (**incidentInstance_abstract.cpi**), which is an abstract representation of the original incident instance. The output will be stored in the same place as the incident instance file, i.e. under [scenario1_extraction][5] folder.
 
