@@ -9,7 +9,7 @@ We also give [Demo Data][4] to allow one to use and test both techniques.
 
 The technique aims at generating an incident pattern from an incident instance that occurred in a specific cyber-physical system, in particular, smart buildings.
 
-To demonstrate the technique, you can download a demo (**demo.zip**) from [here][4]. The demo folder contains an exectable jar (**techniques.jar**) and data (under **DemoData** folder). Unpack the demo and then run the jar file. Alternatively, you can download the project, build it, and then execute/modify the example from class [ScenarioExecutor.java][11].
+To demonstrate the technique, you can download a demo (**demo.zip**) from [here][4]. The demo contains an exectable jar of both techniques (**techniques.jar**) and data (under **DemoData** folder). Unpack the demo and then run the jar file. Alternatively, you can download the project, build it, and then execute/modify the example from class [ScenarioExecutor.java][11].
 
 The data for executing the extraction technique include:
 
@@ -28,7 +28,7 @@ Enter 1 or 2 to execute incident pattern extraction (1) or incident pattern inst
 1
 ```
 
-The output of this technique is an incident model (**incidentInstance_abstract.cpi**), which is an abstract representation of the original incident instance. The output is stored in the same place as the incident instance file, i.e. under [scenario1_extraction][5] folder. The activities carried out by the technique are logged in **log** folder, which, if not created, will be created at the texecution of the technique.
+The output of this technique is an incident model (**incidentInstance_abstract.cpi**), which is an abstract representation of the original incident instance. The output is stored in the same place as the incident instance file, i.e. under **scenario1_extraction** folder. The activities carried out by the technique are logged in **log** folder, which, if not created, will be created at the texecution of the technique.
 
 ### Incident Pattern Instantiation Technique
 
@@ -36,15 +36,15 @@ The technique aims at identfiying all traces (i.e. sequences of actions) in a sy
 
 The implementation can be found under the package: ie.lero.spare.pattern_instantiation
 
-To demonstrate the technique, you can download a demo (**demo.zip**) from [here][4]. The demo folder contains an exectable jar (**techniques.jar**) and data (under **DemoData** folder). Unpack the demo and then run the jar file. Alternatively, you can download the project, build it, and then execute/modify the example from class [ScenarioExecutor.java][11].
+To demonstrate the technique, you can download a demo (**demo.zip**) from [here][4]. The demo contains an exectable jar of both techniques (**techniques.jar**) and data (under **DemoData** folder). Unpack the demo and then run the jar file. Alternatively, you can download the project, build it, and then execute/modify the example from class [ScenarioExecutor.java][11].
 
 The data for executing the extraction technique include:
 
->- Incident pattern model file ([incidentPattern.cpi][7])
+>- Incident pattern model file (**incidentPattern.cpi**)
 
->- System model file ([RC2.cps][8]), and Bigraphical Reactive Representation (BRS) of the system ([RC2.big][9])
+>- System model file (**RC2.cps**), and Bigraphical Reactive Representation (BRS) of the system (**RC2.big**)
 
->- Labelled Transition System ([LTS][10]). The LTS has 2005 states. We provide a small LTS for size considerations and just for demoing. If you want to experiment with systems of larger sizes please contact us (faeq.alrimawi@lero.ie).
+>- Labelled Transition System (**LTS**). The LTS has 2005 states. We provide a small LTS for size considerations and just for demoing. If you want to experiment with systems of larger sizes please contact us (faeq.alrimawi@lero.ie).
 
 To run the demo for the instantiation technique, do the following:  
 
@@ -55,7 +55,7 @@ Enter 1 or 2 to execute incident pattern extraction (1) or incident pattern inst
 2
 ```
 
-The output of the technique is the set of system traces (i.e. sequences of actions) that ssatisfy the given incident pattern. The identified traces are stored in a JSON file in folder **output** (which is created if it does not exist) under [scenario2_instantiation][6] folder. The activities carried out by the technique are logged in **log** folder, which, if not created, will be created at the texecution of the technique.
+The output of the technique is the set of system traces (i.e. sequences of actions) that ssatisfy the given incident pattern. The identified traces are stored in a JSON file in folder **output** (which is created if it does not exist) under **scenario2_instantiation** folder. The activities carried out by the technique are logged in **log** folder, which, if not created, will be created at the texecution of the technique.
 
 Output sample:
 
@@ -113,7 +113,7 @@ The above excerpt shows the number of generated traces (i.e. **instances_count:2
 >>- **target**, the target system state, which represents the system state *after* the action was invoked
 
 
-[4]:../../tree/master/executable_jar
+[4]:../../tree/master/demo
 [5]:../../tree/master/executable_jar/DemoData/scenario1_extraction/
 [1]:../../tree/master/executable_jar/DemoData/scenario1_extraction/incidentInstance.cpi
 [2]:../../tree/master/executable_jar/DemoData/scenario1_extraction/RC1.cps
