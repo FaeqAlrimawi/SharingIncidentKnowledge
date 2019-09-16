@@ -9,7 +9,7 @@ We also give [Demo Data][4] to allow one to use and test both techniques.
 
 The technique aims at generating an incident pattern from an incident instance that occurred in a specific cyber-physical system, in particular, smart buildings.
 
-To demonstrate the technique, you can download an exectable jar (**techniques.jar**) and associated data (under **DemoData** folder) from [here][4]. Alternatively, you can download the project, build it, and then execute/modify the example from class [ScenarioExecutor.java][11].
+To demonstrate the technique, you can download an exectable jar (**techniques.jar**) and associated data (**DemoData.zip**) from [here][4]. Unpack the data in the same folder as the executable jar. Alternatively, you can download the project, build it, and then execute/modify the example from class [ScenarioExecutor.java][11].
 
 Under [Scenario 1][5], the Demo for executing the extraction technique contains the following data:
 
@@ -36,7 +36,7 @@ The technique aims at identfiying all traces (i.e. sequences of actions) in a sy
 
 The implementation can be found under the package: ie.lero.spare.pattern_instantiation
 
-To demonstrate the technique, you can download an exectable jar (**techniques.jar**) and associated data (under **DemoData** folder) from [here][4]. Alternatively, you can download the project, build it, and then execute/modify the example from class [ScenarioExecutor.java][11].
+To demonstrate the technique, you can download an exectable jar (**techniques.jar**) and associated data (**DemoData.zip**) from [here][4]. Unpack the data in the same folder as the executable jar. Alternatively, you can download the project, build it, and then execute/modify the example from class [ScenarioExecutor.java][11].
 
 Under [Scenario 2][6], the Demo for executing the instantiation technique contains the following data:
 
