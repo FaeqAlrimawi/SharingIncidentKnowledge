@@ -107,7 +107,7 @@ Output sample:
 ```
 The above excerpt shows the number of generated traces (2 in this case), and trace information, which consists of: 
 >- **id**, a unique identifier for the trace
->- **transitions**, the sequence of states and actions. A transition consists of: 
+>- **transitions**, the sequence of states and actions that satify the incident pattern activities. A transition consists of: 
 >>- **action**, the system action that was invoked
 >>- **source**, the source system state, which represents the system state *before* the action was invoked
 >>- **target**, the target system state, which represents the system state *after* the action was invoked
