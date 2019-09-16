@@ -28,7 +28,7 @@ Enter 1 or 2 to execute incident pattern extraction (1) or incident pattern inst
 1
 ```
 
-The output of this technique will be an incident model (**incidentInstance_abstract.cpi**), which is an abstract representation of the original incident instance. The output will be stored in the same place as the incident instance file, i.e. under [scenario1_extraction][5] folder. The activities carried out by the technique are logged in **log** folder, which, if not created, will be created at the texecution of the technique.
+The output of this technique is an incident model (**incidentInstance_abstract.cpi**), which is an abstract representation of the original incident instance. The output is stored in the same place as the incident instance file, i.e. under [scenario1_extraction][5] folder. The activities carried out by the technique are logged in **log** folder, which, if not created, will be created at the texecution of the technique.
 
 ### Incident Pattern Instantiation Technique
 
