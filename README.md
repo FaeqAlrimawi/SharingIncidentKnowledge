@@ -1,13 +1,13 @@
-# Sharing Security Incident Knowledge in Cyber-Physical Systems
+# Sharing Security Incident Knowledge between Cyber-Physical Systems to Assess Forensic Readiness 
 
-We propose two automated techniques that can be used to facilitate the sharing of security incident knowledge across different cyber-physical systems.
+We propose two automated techniques that can be used to facilitate the sharing of security incidents knowledge across different cyber-physical systems (CPSs). Based on these two techniques, we propose a technique to assess forensic readiness of CPSs.
 
-We provide the implementation of the two techniques: incident pattern **extraction** and **instantiation**. 
-We also give [Demo Data][4] to allow one to use and test both techniques.
+We provide the implementation of the three techniques: incident pattern **extraction** and **instantiation**, and **forensic readiness assessment**. 
+We also give [Demo Data][4] to allow one to use and test the techniques.
 
 ### Incident Pattern Extraction Technique
 
-The technique aims at generating an incident pattern from an incident instance that occurred in a specific cyber-physical system, in particular, smart buildings.
+The technique generates an incident pattern from an incident instance that occurred in a specific cyber-physical system, in particular, smart buildings.
 
 To demonstrate the technique, you can download a demo (**demo.zip**) from [here][4]. The demo contains an exectable jar of both techniques (**techniques.jar**) and data (under **DemoData** folder). Unpack the demo and then run the jar file. Alternatively, you can download the project, build it, and then execute/modify the example from class [ScenarioExecutor.java][11].
 
@@ -19,43 +19,23 @@ The data for executing the extraction technique are:
 
 >- Activity pattern files under the folder **activityPatterns**
 
-To run the demo for the extraction technique, do the following: 
-
-```console
-foo@bar:~$ java -jar techniques.jar
-
-...
-Enter 1 or 2 to execute incident pattern extraction (1) or incident pattern instantiation (2)
-1
-```
-
 The output of this technique is an incident model (**incidentInstance_abstract.cpi**), which is an abstract representation of the original incident instance. The output is stored in the same place as the incident instance file, i.e. under **scenario1_extraction** folder. The activities carried out by the technique are logged in **log** folder, which, if not created, will be created at the texecution of the technique.
 
 ### Incident Pattern Instantiation Technique
 
-The technique aims at identfiying all traces (i.e. sequences of actions) in a system that satisfy a given incident pattern.
+The technique identifies all traces (i.e. sequences of actions) in a system that satisfy a given incident pattern.
 
 The implementation can be found under the package: ie.lero.spare.pattern_instantiation
 
 To demonstrate the technique, you can download a demo (**demo.zip**) from [here][4]. The demo contains an exectable jar of both techniques (**techniques.jar**) and data (under **DemoData** folder). Unpack the demo and then run the jar file. Alternatively, you can download the project, build it, and then execute/modify the example from class [ScenarioExecutor.java][11].
 
-The data for executing the isntantiation technique are:
+The data required for executing the instantiation technique are:
 
 >- Incident pattern model file (**incidentPattern.cpi**)
 
 >- System model file (**RC2.cps**), and Bigraphical Reactive Representation (BRS) of the system (**RC2.big**)
 
 >- Labelled Transition System (**LTS**). The LTS has 2005 states. We provide a small LTS for size considerations and just for demoing. If you want to experiment with systems of larger sizes please contact us (faeq.alrimawi@lero.ie).
-
-To run the demo for the instantiation technique, do the following:  
-
-```console
-foo@bar:~$ java -jar techniques.jar
-
-...
-Enter 1 or 2 to execute incident pattern extraction (1) or incident pattern instantiation (2)
-2
-```
 
 The output of the technique is the set of system traces (i.e. sequences of actions) that ssatisfy the given incident pattern. The identified traces are stored in a JSON file in folder **output** (which is created if it does not exist) under **scenario2_instantiation** folder. The activities carried out by the technique are logged in **log** folder, which, if not created, will be created at the texecution of the technique.
 
@@ -115,6 +95,16 @@ The above excerpt shows the number of generated traces (i.e. **instances_count:2
 >>- **target**, the target system state, which represents the system state *after* the action was invoked
 
 
+### Forensic Readiness Assessment
+The technique assesses the availability of monitors that are needed to observe and store data about actions of traces, which are generated via the instantiation technique.
+
+The main classes implementing this technique can be found under: ie.lero.spare.forensics.assessment
+
+>- The input is a set of generated traces.
+
+>- The output is two subsets of given traces. One subset that the system can monitor along with system monitors. Another subset of traces that the system cannot monitor along with suggest monitors.
+
+
 [4]:../../tree/master/demo
 [5]:../../tree/master/executable_jar/DemoData/scenario1_extraction/
 [1]:../../tree/master/executable_jar/DemoData/scenario1_extraction/incidentInstance.cpi
@@ -126,5 +116,6 @@ The above excerpt shows the number of generated traces (i.e. **instances_count:2
 [8]:../../tree/master/executable_jar/DemoData/scenario2_instantiation/RC2.cps
 [9]:../../tree/master/executable_jar/DemoData/scenario2_instantiation/RC2.big
 [10]:../../tree/master/executable_jar/DemoData/scenario2_instantiation/RC2/
+
 
 [11]:../../tree/master/src/ie/lero/spare/main/ScenarioExecutor.java
