@@ -121,4 +121,4 @@ An example of the execution of the technique is provided in class [MonitorExampl
 
 
 [11]:../../tree/master/src/ie/lero/spare/main/ScenarioExecutor.java
-[12]:../../tree/master/src/ie/lero/spare/forensics/assessment/test/MonitorExample.java
+[12]:../../tree/master/src/ie/lero/spare/forensics/assessment/monitor/test/MonitorExample.java
