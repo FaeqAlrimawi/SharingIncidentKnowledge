@@ -13,7 +13,7 @@ import ie.lero.spare.forensics.assessment.monitor.MonitorTemplateFactory;
 import ie.lero.spare.pattern_instantiation.GraphPath;
 import ie.lero.spare.pattern_instantiation.analysis.TraceMiner;
 
-public class MonitorTester {
+public class MonitorExample {
 
 	TraceMiner miner;
 
@@ -155,9 +155,9 @@ public class MonitorTester {
 
 		String tracesFilePath = basicPath + "traces_reduced_5k.json";
 
-		URL ltsLocation = MonitorTester.class.getClassLoader().getResource(ltsLocationExternalStr);
-		URL bigFileLocation = MonitorTester.class.getClassLoader().getResource(bigFileExternalStr);
-		URL tracesURL = MonitorTester.class.getClassLoader().getResource(tracesFilePath);
+		URL ltsLocation = MonitorExample.class.getClassLoader().getResource(ltsLocationExternalStr);
+		URL bigFileLocation = MonitorExample.class.getClassLoader().getResource(bigFileExternalStr);
+		URL tracesURL = MonitorExample.class.getClassLoader().getResource(tracesFilePath);
 
 		String LTS = ltsLocationExternalStr;
 		String bigFile = bigFileExternalStr;
@@ -193,7 +193,7 @@ public class MonitorTester {
 		miner.setStatesFolder(LTS);
 		miner.loadTracesFromFile(traces);
 
-		MonitorTester tester = new MonitorTester();
+		MonitorExample tester = new MonitorExample();
 
 		tester.setTraceMiner(miner);
 
