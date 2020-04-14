@@ -104,7 +104,7 @@ The main classes implementing this technique can be found under: ie.lero.spare.f
 
 >- It outputs two subsets of the given traces. One subset that the system can monitor along with system monitors. Another subset of traces that the system cannot monitor along with suggest monitors.
 
-
+An example of the execution of the technique is provided in class [Moniot][12]
 [4]:../../tree/master/demo
 [5]:../../tree/master/executable_jar/DemoData/scenario1_extraction/
 [1]:../../tree/master/executable_jar/DemoData/scenario1_extraction/incidentInstance.cpi
