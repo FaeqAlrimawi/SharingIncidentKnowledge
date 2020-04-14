@@ -17,9 +17,9 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.BinaryOperator;
 import java.util.function.Function;
 
-import ie.lero.spare.franalyser.utility.Logger;
-import ie.lero.spare.franalyser.utility.TransitionSystem;
 import ie.lero.spare.pattern_instantiation.IncidentPatternInstantiator.PotentialIncidentInstance;
+import ie.lero.spare.utility.Logger;
+import ie.lero.spare.utility.TransitionSystem;
 
 public class GraphPathsAnalyser {
 

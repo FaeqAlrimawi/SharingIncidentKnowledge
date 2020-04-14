@@ -2,7 +2,7 @@ package ie.lero.spare.pattern_instantiation;
 
 import java.util.HashMap;
 
-import ie.lero.spare.franalyser.utility.TransitionSystem;
+import ie.lero.spare.utility.TransitionSystem;
 import it.uniud.mads.jlibbig.core.std.Bigraph;
 import it.uniud.mads.jlibbig.core.std.Signature;
 

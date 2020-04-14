@@ -1,0 +1,136 @@
+{
+  "nodes": [
+    {
+      "node_id": 0,
+      "control": {
+        "ctrl_name": "SmartTV",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 1,
+      "control": {
+        "ctrl_name": "Camera",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 2,
+      "control": {
+        "ctrl_name": "Status",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 3,
+      "control": {
+        "ctrl_name": "On",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 4,
+      "control": {
+        "ctrl_name": "Status",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 5,
+      "control": {
+        "ctrl_name": "On",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 6,
+      "control": {
+        "ctrl_name": "RulesKeywords",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 7,
+      "control": {
+        "ctrl_name": "TurnOffTVCamera",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    }
+  ],
+  "place_graph": {
+    "num_regions": 2,
+    "num_nodes": 8,
+    "num_sites": 2,
+    "rn": [
+      {
+        "source": 0,
+        "target": 0
+      },
+      {
+        "source": 1,
+        "target": 6
+      }
+    ],
+    "rs": [],
+    "nn": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 4
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 2,
+        "target": 3
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 6,
+        "target": 7
+      }
+    ],
+    "ns": [
+      {
+        "source": 0,
+        "target": 0
+      },
+      {
+        "source": 6,
+        "target": 1
+      }
+    ]
+  },
+  "link_graph": [
+    {
+      "inner": [],
+      "outer": [
+        {
+          "name": "ipNet"
+        }
+      ],
+      "ports": [
+        {
+          "node_id": 0,
+          "port_arity": 1
+        }
+      ]
+    }
+  ]
+}

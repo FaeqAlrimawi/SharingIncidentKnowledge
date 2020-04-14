@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "node_id": 0,
+      "control": {
+        "ctrl_name": "Visitor",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 1,
+      "control": {
+        "ctrl_name": "Laptop",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 2,
+      "control": {
+        "ctrl_name": "HVAC",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 3,
+      "control": {
+        "ctrl_name": "RulesKeywords",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 4,
+      "control": {
+        "ctrl_name": "DisconnectFromHVACViaBus",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    }
+  ],
+  "place_graph": {
+    "num_regions": 2,
+    "num_nodes": 5,
+    "num_sites": 4,
+    "rn": [
+      {
+        "source": 0,
+        "target": 0
+      },
+      {
+        "source": 0,
+        "target": 2
+      },
+      {
+        "source": 1,
+        "target": 3
+      }
+    ],
+    "rs": [],
+    "nn": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 3,
+        "target": 4
+      }
+    ],
+    "ns": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 1,
+        "target": 0
+      },
+      {
+        "source": 2,
+        "target": 2
+      },
+      {
+        "source": 3,
+        "target": 3
+      }
+    ]
+  },
+  "link_graph": [
+    {
+      "inner": [],
+      "outer": [],
+      "ports": [
+        {
+          "node_id": 2,
+          "port_arity": 1
+        }
+      ]
+    },
+    {
+      "inner": [],
+      "outer": [
+        {
+          "name": "busNet"
+        }
+      ],
+      "ports": [
+        {
+          "node_id": 1,
+          "port_arity": 1
+        }
+      ]
+    }
+  ]
+}

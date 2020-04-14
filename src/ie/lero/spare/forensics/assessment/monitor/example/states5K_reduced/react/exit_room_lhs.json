@@ -1,0 +1,140 @@
+{
+  "nodes": [
+    {
+      "node_id": 0,
+      "control": {
+        "ctrl_name": "Hallway",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 1,
+      "control": {
+        "ctrl_name": "Room",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 2,
+      "control": {
+        "ctrl_name": "Visitor",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 3,
+      "control": {
+        "ctrl_name": "PhysicalConnection",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 4,
+      "control": {
+        "ctrl_name": "NoCard",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 5,
+      "control": {
+        "ctrl_name": "RulesKeywords",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 6,
+      "control": {
+        "ctrl_name": "VisitorExitRoom",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    }
+  ],
+  "place_graph": {
+    "num_regions": 3,
+    "num_nodes": 7,
+    "num_sites": 4,
+    "rn": [
+      {
+        "source": 0,
+        "target": 0
+      },
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 1,
+        "target": 3
+      },
+      {
+        "source": 2,
+        "target": 5
+      }
+    ],
+    "rs": [],
+    "nn": [
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 5,
+        "target": 6
+      }
+    ],
+    "ns": [
+      {
+        "source": 0,
+        "target": 0
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 2,
+        "target": 1
+      },
+      {
+        "source": 5,
+        "target": 3
+      }
+    ]
+  },
+  "link_graph": [
+    {
+      "inner": [],
+      "outer": [
+        {
+          "name": "hallway"
+        }
+      ],
+      "ports": [
+        {
+          "node_id": 0,
+          "port_arity": 1
+        },
+        {
+          "node_id": 1,
+          "port_arity": 1
+        },
+        {
+          "node_id": 3,
+          "port_arity": 1
+        }
+      ]
+    }
+  ]
+}

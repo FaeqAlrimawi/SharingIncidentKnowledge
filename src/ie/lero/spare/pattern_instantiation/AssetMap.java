@@ -18,9 +18,9 @@ import cyberPhysical_Incident.IncidentDiagram;
 import cyberPhysical_Incident.IncidentEntity;
 import cyberPhysical_Incident.Mobility;
 import environment.EnvironmentDiagram;
-import ie.lero.spare.franalyser.utility.CartesianIterator;
-import ie.lero.spare.franalyser.utility.ModelsHandler;
-import ie.lero.spare.franalyser.utility.XqueryExecuter;
+import ie.lero.spare.utility.CartesianIterator;
+import ie.lero.spare.utility.ModelsHandler;
+import ie.lero.spare.utility.XqueryExecuter;
 
 public class AssetMap {
 	private String[] incidentEntityNames;

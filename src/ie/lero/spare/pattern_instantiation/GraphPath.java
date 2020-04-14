@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-import ie.lero.spare.franalyser.utility.JSONTerms;
-import ie.lero.spare.franalyser.utility.PredicateType;
-import ie.lero.spare.franalyser.utility.TransitionSystem;
+import ie.lero.spare.utility.JSONTerms;
+import ie.lero.spare.utility.PredicateType;
+import ie.lero.spare.utility.TransitionSystem;
 
 public class GraphPath {
 
@@ -132,8 +132,10 @@ public class GraphPath {
 	public String toSimpleString() {
 		StringBuilder res = new StringBuilder();
 
+		res.append("states: ");
+		
 		for (Integer state : stateTransitions) {
-			res.append(state).append(",");
+			res.append(state).append(">");
 		}
 
 		if (res.length() > 1) {

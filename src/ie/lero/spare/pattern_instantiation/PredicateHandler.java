@@ -26,13 +26,13 @@ import javax.xml.xquery.XQException;
 import org.eclipse.emf.common.util.EList;
 
 import cyberPhysical_Incident.Activity;
-import ie.lero.spare.franalyser.utility.Digraph;
-import ie.lero.spare.franalyser.utility.FileManipulator;
-import ie.lero.spare.franalyser.utility.Logger;
-import ie.lero.spare.franalyser.utility.PredicateType;
-import ie.lero.spare.franalyser.utility.TransitionSystem;
-import ie.lero.spare.franalyser.utility.XqueryExecuter;
 import ie.lero.spare.pattern_instantiation.IncidentPatternInstantiator.PotentialIncidentInstance;
+import ie.lero.spare.utility.Digraph;
+import ie.lero.spare.utility.FileManipulator;
+import ie.lero.spare.utility.Logger;
+import ie.lero.spare.utility.PredicateType;
+import ie.lero.spare.utility.TransitionSystem;
+import ie.lero.spare.utility.XqueryExecuter;
 
 public class PredicateHandler {
 

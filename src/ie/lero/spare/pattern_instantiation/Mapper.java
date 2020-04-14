@@ -29,8 +29,8 @@ import environment.DigitalNetwork;
 import environment.EnvironmentDiagram;
 import environment.PhysicalAsset;
 import environment.PhysicalStructure;
-import ie.lero.spare.franalyser.utility.ModelsHandler;
-import ie.lero.spare.franalyser.utility.XqueryExecuter;
+import ie.lero.spare.utility.ModelsHandler;
+import ie.lero.spare.utility.XqueryExecuter;
 
 public class Mapper {
 

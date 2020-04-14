@@ -6,8 +6,8 @@ import java.util.LinkedList;
 
 import cyberPhysical_Incident.Activity;
 import cyberPhysical_Incident.impl.ActivityImpl;
-import ie.lero.spare.franalyser.utility.PredicateType;
-import ie.lero.spare.franalyser.utility.TransitionSystem;
+import ie.lero.spare.utility.PredicateType;
+import ie.lero.spare.utility.TransitionSystem;
 
 public class IncidentActivity extends ActivityImpl {
 

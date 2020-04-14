@@ -16,11 +16,11 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-import ie.lero.spare.franalyser.utility.Digraph;
-import ie.lero.spare.franalyser.utility.FileManipulator;
-import ie.lero.spare.franalyser.utility.FileNames;
-import ie.lero.spare.franalyser.utility.JSONTerms;
-import ie.lero.spare.franalyser.utility.TransitionSystem;
+import ie.lero.spare.utility.Digraph;
+import ie.lero.spare.utility.FileManipulator;
+import ie.lero.spare.utility.FileNames;
+import ie.lero.spare.utility.JSONTerms;
+import ie.lero.spare.utility.TransitionSystem;
 
 public class LabelExtractor {
 

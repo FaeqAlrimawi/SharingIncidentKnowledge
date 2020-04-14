@@ -15,12 +15,12 @@ import org.json.JSONObject;
 import cyberPhysical_Incident.Activity;
 import cyberPhysical_Incident.IncidentDiagram;
 import environment.EnvironmentDiagram;
-import ie.lero.spare.franalyser.utility.FileManipulator;
-import ie.lero.spare.franalyser.utility.JSONTerms;
-import ie.lero.spare.franalyser.utility.Logger;
-import ie.lero.spare.franalyser.utility.ModelsHandler;
-import ie.lero.spare.franalyser.utility.PredicateType;
-import ie.lero.spare.franalyser.utility.XqueryExecuter;
+import ie.lero.spare.utility.FileManipulator;
+import ie.lero.spare.utility.JSONTerms;
+import ie.lero.spare.utility.Logger;
+import ie.lero.spare.utility.ModelsHandler;
+import ie.lero.spare.utility.PredicateType;
+import ie.lero.spare.utility.XqueryExecuter;
 import it.uniud.mads.jlibbig.core.Signature;
 
 public class PredicateGenerator {

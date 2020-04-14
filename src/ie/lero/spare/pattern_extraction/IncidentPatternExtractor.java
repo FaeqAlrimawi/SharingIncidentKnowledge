@@ -41,8 +41,8 @@ import cyberPhysical_Incident.Type;
 import cyberPhysical_Incident.Vulnerability;
 import environment.CyberPhysicalSystemPackage;
 import environment.EnvironmentDiagram;
-import ie.lero.spare.franalyser.utility.Logger;
-import ie.lero.spare.franalyser.utility.ModelsHandler;
+import ie.lero.spare.utility.Logger;
+import ie.lero.spare.utility.ModelsHandler;
 import it.uniud.mads.jlibbig.core.std.Bigraph;
 import it.uniud.mads.jlibbig.core.std.Matcher;
 

@@ -10,11 +10,11 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import cyberPhysical_Incident.Activity;
-import ie.lero.spare.franalyser.utility.BigraphNode;
-import ie.lero.spare.franalyser.utility.JSONTerms;
-import ie.lero.spare.franalyser.utility.PredicateType;
-import ie.lero.spare.franalyser.utility.TransitionSystem;
-import ie.lero.spare.franalyser.utility.XqueryExecuter;
+import ie.lero.spare.utility.BigraphNode;
+import ie.lero.spare.utility.JSONTerms;
+import ie.lero.spare.utility.PredicateType;
+import ie.lero.spare.utility.TransitionSystem;
+import ie.lero.spare.utility.XqueryExecuter;
 import it.uniud.mads.jlibbig.core.std.Bigraph;
 import it.uniud.mads.jlibbig.core.std.BigraphBuilder;
 import it.uniud.mads.jlibbig.core.std.Handle;

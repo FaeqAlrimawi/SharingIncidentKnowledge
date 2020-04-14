@@ -21,11 +21,11 @@ import java.util.function.BinaryOperator;
 import java.util.function.Function;
 
 import cyberPhysical_Incident.Activity;
-import ie.lero.spare.franalyser.utility.Digraph;
-import ie.lero.spare.franalyser.utility.Logger;
-import ie.lero.spare.franalyser.utility.PredicateType;
-import ie.lero.spare.franalyser.utility.TransitionSystem;
 import ie.lero.spare.pattern_instantiation.IncidentPatternInstantiator.PotentialIncidentInstance;
+import ie.lero.spare.utility.Digraph;
+import ie.lero.spare.utility.Logger;
+import ie.lero.spare.utility.PredicateType;
+import ie.lero.spare.utility.TransitionSystem;
 import it.uniud.mads.jlibbig.core.std.Bigraph;
 import it.uniud.mads.jlibbig.core.std.Matcher;
 

@@ -1,0 +1,677 @@
+# Signature
+
+#physical structure
+ctrl Building = 0; #currently no connections to outside world
+ctrl Floor = 2; #connections can define upper and lower floors 
+##Rooms
+ctrl Room = 1; #could define an AC room, or room A in the floor (AC room, room A)
+ctrl Hallway = 1;#30; #number of connections to the rooms in the floor
+#ctrl Lab = 1; #control refers to labs that has one connection to hallway (12 labs)
+#ctrl Room_2 = 2; #control refers to labs that has two connection to hallway (1 lab)
+#ctrl Lab_2 = 2; #control refers to labs that has two connection to hallway (1 lab)
+#ctrl Room_4 = 4; #control refers to labs that has four connection to hallway (2 labs)
+#ctrl Lab_4 = 4; #control refers to labs that has four connection to hallway (2 labs)
+#ctrl Toilet = 1; #connection to hallway (3 toilets)
+#ctrl Kitchen = 2; #connections to hallway and AC room (1 kitchen)
+#ctrl Lounge = 2;# (1 lounge)
+#ctrl Stairs = 1; # (2 stairs)
+#ctrl ElevatorsArea = 2; # 1 area
+
+##computingDevices
+ctrl Elevator = 1; #(7 in total: 6 elevators in elevator area and 1 emergency elevator)
+ctrl Desktop = 1; # (15 desktops)
+ctrl Server = 1; # (2 servers, 1 in informatics lab the other in the empirical lab)
+ctrl SmartLight = 1;
+ctrl HVAC = 1;
+ctrl FireAlarm = 1;
+ctrl Workstation = 1;
+ctrl Laptop = 1;
+ctrl CardReader = 1;
+ctrl CCTV = 1;
+ctrl ComputingDevice = 1;
+ctrl SmartTV = 1;
+ctrl Microphone = 0;
+ctrl Camera = 0;
+
+#Digital structure
+ctrl IPNetwork = 1; #defines 10 connections to desktops
+ctrl BusNetwork = 1; # 5 should be changed to the right number
+atomic ctrl Data = 0; # could be packets
+ctrl Malware = 0;
+ctrl Software = 0; #could be programs/processes, something that executes
+
+#general status
+ctrl Status = 0;
+atomic ctrl On = 0;
+atomic ctrl Off = 0;
+
+#Actors
+ctrl Visitor = 0;
+ctrl Actor = 0;
+ctrl Employee = 0;
+
+#Connections
+ctrl PhysicalConnection = 1;
+ctrl IPConnection = 1;
+ctrl BusConnection = 1;
+
+#context (defines some constrains over rules)
+ctrl Context = 1; #context contains one of the below states of working (workinghours, cardehours, and closedhours)
+atomic ctrl WorkingHours = 0; # defines the period between 8:30-19:00 as working hours
+atomic ctrl OutsideWorkingHours = 0; #defines the period between 19:00=22:00 as card required to access rooms
+atomic ctrl CardRequired = 0; 
+atomic ctrl NoCard = 0; 
+atomic ctrl ClosedHours = 0; #defines the period between 22:00-8:30 as Closed hours
+atomic ctrl ClosedHours_2 = 0; #defines the period between 19:00-8:30 as Closed hours
+
+
+##### Actions
+#keywords for the reaction rules (possible actions in the system)
+atomic ctrl VisitorEnterRoom = 0;
+atomic ctrl EmployeeEnterRoom = 0;
+atomic ctrl VisitorExitRoom = 0;
+atomic ctrl EmployeeExitRoom = 0;
+
+atomic ctrl ConnectToDesktopViaIP = 0;
+atomic ctrl ConnectToSmartTVViaIP = 0;
+atomic ctrl DisconnectFromDesktopViaIP = 0;
+atomic ctrl DisconnectFromSmartTVViaIP = 0;
+
+atomic ctrl ConnectToSmartLightViaBus = 0;
+atomic ctrl ConnectToHVACViaBus = 0;
+atomic ctrl ConnectToFireAlarmViaBus = 0;
+atomic ctrl ConnectToComputingDeviceViaBus = 0;
+
+atomic ctrl DisconnectFromSmartLightViaBus = 0;
+atomic ctrl DisconnectFromFireAlarmViaBus = 0;
+atomic ctrl DisconnectFromHVACViaBus = 0;
+atomic ctrl DisconnectFromComputingDeviceViaBus = 0;
+
+atomic ctrl GenerateData = 0;
+atomic ctrl CollectData = 0;
+atomic ctrl SendData = 0;
+atomic ctrl SendMalware = 0;
+atomic ctrl DisableHVAC = 0;
+#atomic ctrl ChangeAccessToCardNotRequired = 0;
+atomic ctrl ChangeContextToOutSideWorkingHours = 0; 
+atomic ctrl ChangeContextToWorkingHours = 0;
+atomic ctrl TurnOnHVAC = 0;
+atomic ctrl TurnOffHVAC = 0;
+atomic ctrl TurnOnSmartTV = 0;
+atomic ctrl TurnOffSmartTV = 0;
+atomic ctrl TurnONTVMicrophone = 0;
+atomic ctrl TurnOffTVMicrophone = 0;
+atomic ctrl TurnONTVCamera = 0;
+atomic ctrl TurnOffTVCamera = 0;
+ctrl RulesKeywords = 0;
+
+##################################################################################
+################## ASSET IDs #####################################################
+#specifies ID for the control in the initial state
+## IDs (names) are unique, but not case sensitive
+ctrl AssetID = 0;
+### should include all asset ids
+##IDs
+#building
+atomic ctrl Lero = 0;
+
+#floor
+atomic ctrl Second_Floor = 0;
+
+#smart lights
+atomic ctrl SL_T23 = 0;
+atomic ctrl SL_T24 = 0;
+atomic ctrl SL_T25 = 0;
+atomic ctrl SL_T26 = 0;
+atomic ctrl SL_T27 = 0;
+atomic ctrl SL_T28 = 0;
+atomic ctrl SL_T29 = 0;
+atomic ctrl SL_T30 = 0;
+atomic ctrl SL_Mngr = 0;
+atomic ctrl SL_admin = 0;
+atomic ctrl SL_BN = 0;
+atomic ctrl SL_hallway = 0;
+atomic ctrl SL_MtgRm1 = 0;
+atomic ctrl SL_MtgRm2 = 0;
+
+#HVAC
+atomic ctrl AC_mngr = 0;
+atomic ctrl AC_admin = 0;
+
+#fire alarm
+atomic ctrl FireAlarm1 = 0;
+
+#server
+atomic ctrl Server1 = 0;
+atomic ctrl Server2 = 0;
+
+#workstation
+atomic ctrl Workstation1 = 0;
+
+#busnetwork
+atomic ctrl BusNetwork1 = 0;
+
+#laptop
+atomic ctrl Laptop_manager = 0;	
+atomic ctrl VisitorLaptop = 0;	
+
+#application (software)
+atomic ctrl SoftwareX = 0;
+
+#desktop
+atomic ctrl Desktop1_T23 = 0;
+atomic ctrl Desktop2_T23 = 0;
+atomic ctrl Desktop1_T24 = 0;
+atomic ctrl Desktop2_T24 = 0;
+atomic ctrl Desktop1_T25 = 0;
+atomic ctrl Desktop2_T25 = 0;
+atomic ctrl Desktop1_T26 = 0;
+atomic ctrl Desktop2_T26 = 0;
+atomic ctrl Desktop1_T27 = 0;
+atomic ctrl Desktop2_T27 = 0;
+atomic ctrl Desktop1_T28 = 0;
+atomic ctrl Desktop2_T28 = 0;
+atomic ctrl Desktop1_T29 = 0;
+atomic ctrl Desktop2_T29 = 0;
+atomic ctrl Desktop1_T30 = 0;
+atomic ctrl Desktop2_T30 = 0;
+
+#ip network
+atomic ctrl IPnetwork1 = 0;
+
+#toilet
+atomic ctrl MensToilet = 0;
+atomic ctrl WomensToilet = 0;
+atomic ctrl DisabledToilet = 0;
+
+#kitchen
+atomic ctrl Kitchen = 0;
+
+#stairs
+atomic ctrl StairsA = 0;
+atomic ctrl StairsB = 0;
+
+#elevatorsArea
+atomic ctrl ElevatorsArea = 0;
+
+#elevator
+atomic ctrl Elevator1 = 0;
+
+#card reader
+atomic ctrl CardReader_ElevatorsArea_Hallway = 0;
+
+#hallway
+atomic ctrl Floor_Hallway = 0;
+
+#office
+atomic ctrl Office_admin = 0;
+atomic ctrl Office_T23 = 0;
+atomic ctrl Office_T24 = 0;
+atomic ctrl Office_T25 = 0;
+atomic ctrl Office_T26 = 0;
+atomic ctrl Office_T27 = 0;
+atomic ctrl Office_T28 = 0;
+atomic ctrl Office_T29 = 0;
+atomic ctrl Office_T30 = 0;
+atomic ctrl Office_BN = 0;
+atomic ctrl Office_Manager = 0;
+
+#room
+atomic ctrl MeetingRoom1 = 0;
+atomic ctrl MeetingRoom2 = 0;
+
+#employee
+atomic ctrl Admin1 = 0;
+atomic ctrl Admin2 = 0;
+atomic ctrl Prof_BN = 0;
+atomic ctrl Manager = 0;
+atomic ctrl Researcher_T23 = 0;
+atomic ctrl Researcher_T24 = 0;
+atomic ctrl Researcher_T25 = 0;
+atomic ctrl Researcher_T26 = 0;
+atomic ctrl Researcher_T27 = 0;
+atomic ctrl Researcher_T28 = 0;
+atomic ctrl Researcher_T29 = 0;
+atomic ctrl Researcher_T30 = 0;
+
+#smart tv
+atomic ctrl SmartTV_BN = 0;
+
+#visitor
+atomic ctrl Visitor1 = 0;
+atomic ctrl Visitor2 = 0;
+
+#computing device
+atomic ctrl ResourceCmptDevice = 0;
+
+#cctv
+atomic ctrl CCTV1 = 0;
+
+#access point
+atomic ctrl AccessPoint1 = 0;
+atomic ctrl AccessPoint2 = 0;
+atomic ctrl AccessPoint3 = 0;
+
+#malware
+atomic ctrl MalwareX = 0;
+
+#digital asset
+atomic ctrl BusNetworkData = 0;
+######################################################################################
+
+
+#digital components
+
+#busnetwork states
+#big busNetwork = BusNetwork{busNet}.1;
+#big busNetwork_has_data = BusNetwork{busNet}.Data; 
+
+#big ipNetwork = IPNetwork{ipNet}.1;
+
+#physical components
+#big visitor_initial = Visitor.(/a Laptop{a}.Malware);
+
+#big hvac = HVAC{busNet}.Status_On;
+
+#common devices found in a room
+#big computing_devices_in_room = SmartLight{busNet} | hvac;
+
+#different connections defined since a room can have more than one door
+
+#big connection_to_hallway2 = PhysicalConnection{hallway2}.NoCard;
+#big connection_to_hallway3 = PhysicalConnection{hallway3}.NoCard;
+#big connection_to_hallway4 = PhysicalConnection{hallway4}.NoCard;
+
+
+#big connection_to_hallway2_card_required = PhysicalConnection{hallway2}.CardRequired; 
+#big connection_to_hallway3_card_required = PhysicalConnection{hallway3}.CardRequired;
+#big connection_to_hallway4_card_required = PhysicalConnection{hallway4}.CardRequired;
+
+
+
+
+#big office_researcher = Room{hallway}.( computing_devices_in_room | 
+#Desktop{ipNet}.1 | Desktop{ipNet}.1 | Employee.1);
+
+#big office_manager = Room{hallway}.(AssetID.Office_Manager | SmartLight{busNet}.(AssetID.SL_Mngr) | HVAC{busNet}.(AssetID.AC_mngr | Status_On) | Laptop{ipNet}.(AssetID.Laptop_manager));
+
+
+
+#big office_BN = Room{hallway}.( computing_devices_in_room | 
+#Employee.1 | Laptop{ipNet}.1 | smartTV | Server{busNet}.1);
+
+#big office_BN = Room{hallway}.(AssetID.Office_BN | SmartLight{busNet}.(AssetID.SL_BN) | Employee.(AssetID.Prof_BN) | 
+#SmartTV{ipNet}.(AssetID.SmartTV_BN | Camera.Status_Off | Microphone.Status_Off | Status_Off));
+
+
+#big kitchen = Room{hallway}.(AssetID.Kitchen);
+
+#big hvac_room = Room{hallway1}.(hvac | SmartLight{busNet} | CardReader{busNet}.1);
+
+#big toilet = Room{hallway}.(AssetID.MensToilet);
+
+#big elevators_area = Room{hallway}.(AssetID.ElevatorsArea | Elevator{elevator}.(AssetID.Elevator1) | CardReader{busNet}.(AssetID.CardReader_ElevatorsArea_Hallway) | Visitor.(AssetID.Visitor1 | /a Laptop{a}.(AssetID.VisitorLaptop | Malware))); 
+
+#big meeting_room = Room{hallway}.(AssetID.MeetingRoom1 | SmartLight{busNet}.(AssetID.SL_MtgRm1));
+
+
+#big hallway = Hallway{hallway}
+#.(AssetID.Floor_Hallway | CCTV{busNet}.(AssetID.CCTV1) |  SmartLight{busNet}.(AssetID.SL_hallway));
+
+#ok
+big connection_to_hallway = PhysicalConnection{hallway}.NoCard;
+big connection_to_hallway_card_required = PhysicalConnection{hallway}.CardRequired;
+big connection_to_elevators_area = PhysicalConnection{elevator}.NoCard;
+
+big connections = connection_to_hallway | connection_to_hallway_card_required;
+
+big context = Context{c}.(WorkingHours);
+
+big actions = RulesKeywords.(VisitorEnterRoom| VisitorExitRoom | EmployeeEnterRoom | EmployeeExitRoom | 
+ConnectToDesktopViaIP | ConnectToSmartTVViaIP | DisconnectFromDesktopViaIP| DisconnectFromSmartTVViaIP | 
+ConnectToComputingDeviceViaBus| ConnectToFireAlarmViaBus| ConnectToHVACViaBus|ConnectToSmartLightViaBus | 
+DisconnectFromComputingDeviceViaBus | DisconnectFromFireAlarmViaBus |DisconnectFromHVACViaBus| DisconnectFromSmartLightViaBus | 
+ SendData | SendMalware| DisableHVAC  | 
+ChangeContextToOutSideWorkingHours | ChangeContextToWorkingHours |
+ TurnOnHVAC | TurnOffHVAC | TurnOnSmartTV | TurnOffSmartTV | 
+ TurnONTVMicrophone | TurnONTVCamera | TurnOffTVMicrophone | TurnOffTVCamera | GenerateData | CollectData);
+ 
+ 
+##################################################################################
+################## INITIAL STATE ################################################
+big research_centre2 = Building.( AssetID.Lero |
+Floor{lowerFloor, upperFloor}.( AssetID.Second_Floor |
+Room{hallway}.( AssetID.Office_T23 | SmartLight{busNet}.(AssetID.SL_T23) | Desktop{ipNet}.(AssetID.Desktop1_T23) | Desktop{ipNet}.(AssetID.Desktop2_T23) | Employee.(AssetID.Researcher_T23)) |
+Room{hallway}.( AssetID.Office_T24 | SmartLight{busNet}.(AssetID.SL_T24) | Desktop{ipNet}.(AssetID.Desktop1_T24) | Desktop{ipNet}.(AssetID.Desktop2_T24) | Employee.(AssetID.Researcher_T24)) |
+Room{hallway}.( AssetID.Office_T25 | SmartLight{busNet}.(AssetID.SL_T25) | Desktop{ipNet}.(AssetID.Desktop1_T25) | Desktop{ipNet}.(AssetID.Desktop2_T25) | Employee.(AssetID.Researcher_T25)) |
+Room{hallway}.( AssetID.Office_T26 | SmartLight{busNet}.(AssetID.SL_T26) | Desktop{ipNet}.(AssetID.Desktop1_T26) | Desktop{ipNet}.(AssetID.Desktop2_T26) | Employee.(AssetID.Researcher_T26)) |
+Room{hallway}.( AssetID.Office_T27 | SmartLight{busNet}.(AssetID.SL_T27) | Desktop{ipNet}.(AssetID.Desktop1_T27) | Desktop{ipNet}.(AssetID.Desktop2_T27) | Employee.(AssetID.Researcher_T27)) |
+Room{hallway}.( AssetID.Office_T28 | SmartLight{busNet}.(AssetID.SL_T28) | Desktop{ipNet}.(AssetID.Desktop1_T28) | Desktop{ipNet}.(AssetID.Desktop2_T28) | Employee.(AssetID.Researcher_T28)) |
+Room{hallway}.( AssetID.Office_T29 | SmartLight{busNet}.(AssetID.SL_T29) | Desktop{ipNet}.(AssetID.Desktop1_T29) | Desktop{ipNet}.(AssetID.Desktop2_T29) | Employee.(AssetID.Researcher_T29)) |
+Room{hallway}.( AssetID.Office_T30 | SmartLight{busNet}.(AssetID.SL_T30) | Desktop{ipNet}.(AssetID.Desktop1_T30) | Desktop{ipNet}.(AssetID.Desktop2_T30) | Employee.(AssetID.Researcher_T30)) |
+Room{hallway}.( AssetID.Office_admin | SmartLight{busNet}.(AssetID.SL_admin) | HVAC{busNet}.(AssetID.AC_admin) | Employee.(AssetID.Admin1)) |
+Room{hallway}.( AssetID.Office_BN | SmartLight{busNet}.(AssetID.SL_BN) | Employee.(AssetID.Prof_BN) | SmartTV{ipNet}.(AssetID.SmartTV_BN | Camera.Status.Off | Microphone.Status.Off | Status.Off)) |
+Room{hallway}.( AssetID.Office_Manager | SmartLight{busNet}.(AssetID.SL_Mngr) | HVAC{busNet}.(AssetID.AC_mngr | Status.On) | Laptop{ipNet}.(AssetID.Laptop_manager)) |
+Room{hallway}.( AssetID.Kitchen) |
+Room{hallway}.( AssetID.MensToilet) |
+Room{hallway}.( AssetID.WomensToilet) |
+Room{hallway}.( AssetID.DisabledToilet) |
+Room{hallway}.( AssetID.ElevatorsArea | Elevator{elevator}.(AssetID.Elevator1) | CardReader{busNet}.(AssetID.CardReader_ElevatorsArea_Hallway) | Visitor.(AssetID.Visitor1 | /a Laptop{a}.(AssetID.VisitorLaptop | Malware.(AssetID.MalwareX)))) |
+Room{hallway}.( AssetID.MeetingRoom1 | SmartLight{busNet}.(AssetID.SL_MtgRm1)) |
+Room{hallway}.( AssetID.MeetingRoom2 | SmartLight{busNet}.(AssetID.SL_MtgRm2)) |
+Hallway{hallway}.( AssetID.Floor_Hallway | CCTV{busNet}.(AssetID.CCTV1) |  SmartLight{busNet}.(AssetID.SL_hallway)) 
+) |
+BusNetwork{busNet}.(AssetID.BusNetwork1 | Data) |
+IPNetwork{ipNet}.(AssetID.IPnetwork1) 
+)
+|| 
+connections
+||
+context
+||
+actions
+;  
+##################################################################################
+ 
+
+#bus network state
+big busNetwork = BusNetwork{busNet}.id;
+big busNetwork_has_data = BusNetwork{busNet}.(Data | id);     
+
+#smart tv status (includes cam and mic)
+big smartTV = SmartTV{ipNet}.(Camera.Status.Off | Microphone.Status.Off | Status.Off);
+big smartTV_off = SmartTV{ipNet}.(Status.Off | id);
+big smartTV_on = SmartTV{ipNet}.(Status.On | id);
+big smartTV_microphone_on = SmartTV{ipNet}.(Microphone.Status.On | Status.On | id);
+big smartTV_microphone_off = SmartTV{ipNet}.(Microphone.Status.Off | Status.On | id);
+big smartTV_camera_on = SmartTV{ipNet}.(Camera.Status.On | Status.On | id);
+big smartTV_camera_off = SmartTV{ipNet}.(Camera.Status.Off | Status.On | id); 
+
+#visitor states
+big visitor = Visitor.id;
+big employee = Employee.id;
+big visitor_laptop = Visitor.(/a Laptop{a} | id);
+big visitor_connected_to_IP = Visitor.(Laptop{ipNet}.id | id);
+big visitor_connected_to_bus = Visitor.(Laptop{busNet}.id | id);
+big visitor_connected_to_bus_has_data = Visitor.(Laptop{busNet}.(id | Data) | id);
+big visitor_connected_to_bus_with_malware = Visitor.(Laptop{busNet}.(id | Malware) | id);
+
+#actor states
+#big employee_connected_to_IP = Actor.(ComputingDevice{ipNet} | id);
+big employee_connected_to_bus = Employee.(ComputingDevice{busNet}.id | id);
+big employee_connected_to_bus_with_data = Employee.(ComputingDevice{busNet}.(id | Data) | id);
+
+#offender target
+big malware_target = HVAC{busNet}.id | Server{ipNet}.id ;
+big malware_target_infected = HVAC{busNet}.(Malware.id | id | Status.On) | Server{ipNet}.id ;
+big malware_target_disabled = HVAC{busNet}.(Malware.id | id | Status.Off) | Server{ipNet}.id ;
+
+big hallway_visitor = Hallway{hallway}.(id | visitor);
+big hallway_employee = Hallway{hallway}.(id | employee);
+big hallway_general = Hallway{hallway}.id;
+
+#context
+big context_working_hours = Context{c}.WorkingHours;
+big context_outside_working_hours = Context{c}.OutsideWorkingHours;
+
+#room in general
+big room_general = Room{hallway}.id;
+
+
+##################################################################################
+################## REACTION RULES ################################################
+
+#====enter room action
+react enter_room_during_working_hours = 
+hallway_visitor | room_general || connection_to_hallway || context_working_hours || RulesKeywords.(VisitorEnterRoom | id)
+->
+hallway_general | Room{hallway}.(visitor | id) || connection_to_hallway || context_working_hours  || RulesKeywords.(id)
+;
+
+#====exit room action
+react exit_room = 
+hallway_general | Room{hallway}.(visitor | id) || connection_to_hallway || RulesKeywords.(VisitorExitRoom | id)
+->
+hallway_visitor | Room{hallway}.id  || connection_to_hallway || RulesKeywords.(id)
+;
+
+#====employee enter room action
+react employee_enter_room_during_working_hours = 
+hallway_employee | room_general || connection_to_hallway || context_working_hours || RulesKeywords.(EmployeeEnterRoom | id)
+->
+hallway_general | Room{hallway}.(employee | id) || connection_to_hallway || context_working_hours  || RulesKeywords.(id)
+;
+
+#====exit room action
+react employee_exit_room = 
+hallway_general | Room{hallway}.(employee | id) || connection_to_hallway || RulesKeywords.(EmployeeExitRoom | id)
+->
+hallway_employee | Room{hallway}.id  || connection_to_hallway || RulesKeywords.(id)
+;
+
+#====connect to desktop
+react connect_to_desktop = 
+visitor_laptop | Desktop{ipNet}.id || RulesKeywords.(ConnectToDesktopViaIP | id)
+->
+visitor_connected_to_IP | Desktop{ipNet}.id || RulesKeywords.(id)
+;
+
+#====disconnect to desktop
+react disconnect_from_desktop = 
+visitor_connected_to_IP | Desktop{ipNet} || RulesKeywords.(DisconnectFromDesktopViaIP | id)
+->
+visitor_laptop | Desktop{ipNet} || RulesKeywords.(id)
+;
+
+#====connect to smart light
+react connect_to_smartlight = 
+visitor_laptop | SmartLight{busNet}.id || RulesKeywords.(ConnectToSmartLightViaBus | id)
+->
+visitor_connected_to_bus | /busNet SmartLight{busNet}.id || RulesKeywords.(id)
+;
+
+#====disconnect from smart light
+react disconnect_from_smartlight = 
+visitor_connected_to_bus | /busNet SmartLight{busNet}.id || RulesKeywords.(DisconnectFromSmartLightViaBus | id)
+->
+visitor_laptop | SmartLight{busNet}.id || RulesKeywords.(id)
+;
+
+#====connect to hvac
+react connect_to_hvac = 
+visitor_laptop | HVAC{busNet}.id || RulesKeywords.(ConnectToHVACViaBus | id)
+->
+visitor_connected_to_bus | /busNet HVAC{busNet}.id || RulesKeywords.(id)
+;
+
+#====disconnect from hvac
+react disconnect_from_hvac = 
+visitor_connected_to_bus | /busNet HVAC{busNet}.id || RulesKeywords.(DisconnectFromHVACViaBus | id)
+->
+visitor_laptop | HVAC{busNet}.id || RulesKeywords.(id)
+;
+
+#====connect to SmartTV
+react connect_to_smartTV = 
+visitor_laptop | SmartTV{ipNet}.id || RulesKeywords.(ConnectToSmartTVViaIP | id)
+->
+visitor_connected_to_IP | /ipNet SmartTV{ipNet}.id || RulesKeywords.(id)
+;
+
+
+#====disconnect from SmartTV
+react disconnect_from_smartTV = 
+visitor_connected_to_IP | /ipNet SmartTV{ipNet}.id || RulesKeywords.(DisconnectFromSmartTVViaIP | id)
+->
+visitor_laptop | SmartTV{ipNet}.id || RulesKeywords.(id)
+;
+
+#====connect to fire alarm
+react connect_to_firealarm = 
+visitor_laptop | FireAlarm{busNet}.id || RulesKeywords.(ConnectToFireAlarmViaBus | id)
+->
+visitor_connected_to_bus | /busNet FireAlarm{busNet}.id || RulesKeywords.(id)
+;
+
+#====disconnect from fire alarm
+react disconnect_from_firealarm = 
+visitor_connected_to_bus | /busNet FireAlarm{busNet}.id || RulesKeywords.(DisconnectFromFireAlarmViaBus | id)
+->
+visitor_laptop | FireAlarm{busNet}.id || RulesKeywords.(id)
+;
+
+#====connect to computing device
+react connect_to_computingdevice = 
+visitor_laptop | ComputingDevice{busNet}.id || RulesKeywords.(ConnectToComputingDeviceViaBus | id)
+->
+visitor_connected_to_bus | /busNet ComputingDevice{busNet}.id || RulesKeywords.(id)
+;
+
+#====disconnect from computing device
+react disconnect_from_computingdevice = 
+visitor_connected_to_bus | /busNet ComputingDevice{busNet}.id || RulesKeywords.(DisconnectFromComputingDeviceViaBus | id)
+->
+visitor_laptop | ComputingDevice{busNet}.id || RulesKeywords.(id)
+;
+
+#====if employee laptop is connected then add a Data to it [actor action]
+react employee_generate_data = 
+employee_connected_to_bus || RulesKeywords.(GenerateData | id)
+->
+employee_connected_to_bus_with_data || RulesKeywords.(id)
+;
+
+#====if employee laptop is connected then send Data (could be software) to hvac [actor action]
+react employee_send_data = 
+employee_connected_to_bus_with_data  || HVAC{busNet}.id || RulesKeywords.(SendData | id)
+->
+employee_connected_to_bus  ||  HVAC{busNet}.(Data |  id) || RulesKeywords.(id)
+;
+
+#====turn hvac on
+react turn_on_hvac = 
+HVAC{busNet}.(id | Status.Off) || RulesKeywords.(TurnOnHVAC | id)
+->
+HVAC{busNet}.(id | Status.On) || RulesKeywords.(id)
+;
+
+#====turn hvac off
+react turn_off_hvac = 
+HVAC{busNet}.(id | Status.On) || RulesKeywords.(TurnOffHVAC | id)
+->
+HVAC{busNet}.(id | Status.Off) || RulesKeywords.(id)
+;
+
+#====turn smart tv on
+react turn_on_smartTV = 
+employee | smartTV_off || RulesKeywords.(TurnOnSmartTV | id)
+->
+employee | smartTV_on || RulesKeywords.(id)
+;
+
+#====turn smart tv off
+react turn_off_smartTV = 
+employee | smartTV_on || RulesKeywords.(TurnOffSmartTV | id)
+->
+employee | smartTV_off || RulesKeywords.(id)
+;
+
+#====if visitor laptop is connected then send malware to hvac, which its container has server [malicious action]
+react visitor_send_malware = 
+visitor_connected_to_bus_with_malware  || malware_target || RulesKeywords.(SendMalware | id)
+->
+visitor_connected_to_bus || malware_target_infected || RulesKeywords.(id)
+;
+
+#====malware disables hvac [malicious action]
+react disable_hvac = 
+malware_target_infected || RulesKeywords.(DisableHVAC | id)
+->
+malware_target_disabled || RulesKeywords.(id)
+;
+
+#====change context to outside working hours
+react change_to_outside_working_hours = 
+context_working_hours || RulesKeywords.(ChangeContextToOutSideWorkingHours | id)
+->
+context_outside_working_hours || RulesKeywords.(id)
+;
+
+#====change context to working hours
+react change_to_working_hours = 
+context_outside_working_hours || RulesKeywords.(ChangeContextToWorkingHours | id)
+->
+context_working_hours || RulesKeywords.(id)
+;
+
+#====turn on smart tv microphone
+react turn_on_TV_microphone = 
+smartTV_microphone_off || RulesKeywords.(TurnONTVMicrophone | id)
+->
+smartTV_microphone_on || RulesKeywords.(id)
+;
+
+#====turn off smart tv microphone
+react turn_off_TV_microphone = 
+smartTV_microphone_on || RulesKeywords.(TurnOffTVMicrophone | id)
+->
+smartTV_microphone_off || RulesKeywords.(id)
+;
+
+#====turn on smart tv camera
+react turn_on_TV_camera = 
+smartTV_camera_off || RulesKeywords.(TurnONTVCamera | id)
+->
+smartTV_camera_on || RulesKeywords.(id)
+;
+
+#====turn off smart tv camera
+react turn_off_TV_camera = 
+smartTV_camera_on || RulesKeywords.(TurnOffTVCamera | id)
+->
+smartTV_camera_off || RulesKeywords.(id)
+;
+
+#====collect data action
+react collect_data = 
+visitor_connected_to_bus || busNetwork_has_data || RulesKeywords.(CollectData | id)
+->
+visitor_connected_to_bus_has_data || busNetwork || RulesKeywords.(id)
+;
+
+#Reactive system
+begin brs
+  init research_centre2;
+  rules = 
+  [ 
+  {
+    enter_room_during_working_hours, exit_room
+  , employee_enter_room_during_working_hours, employee_exit_room    
+  , connect_to_desktop, disconnect_from_desktop
+  , connect_to_smartlight, disconnect_from_smartlight
+  , connect_to_hvac, disconnect_from_hvac
+  , connect_to_smartTV, disconnect_from_smartTV
+  , connect_to_firealarm, disconnect_from_firealarm
+  , connect_to_computingdevice, disconnect_from_computingdevice
+  , employee_generate_data
+  , employee_send_data
+  , visitor_send_malware
+  , disable_hvac
+  , change_to_working_hours, change_to_outside_working_hours
+  , turn_on_hvac, turn_off_hvac
+  , turn_on_smartTV, turn_off_smartTV
+  , turn_on_TV_camera, turn_off_TV_camera
+  , turn_on_TV_microphone, turn_off_TV_microphone
+  , collect_data
+  } 
+  ];
+
+end
+
+
+
+
+
+
+
+

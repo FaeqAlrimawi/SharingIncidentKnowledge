@@ -6,9 +6,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
-import ie.lero.spare.franalyser.utility.ModelsHandler;
 import ie.lero.spare.pattern_extraction.IncidentPatternExtractor;
 import ie.lero.spare.pattern_instantiation.IncidentPatternInstantiator;
+import ie.lero.spare.utility.ModelsHandler;
 
 /**
  * This class is used for testing the extraction and instantation techniques

@@ -1,0 +1,3517 @@
+{
+  "nodes": [
+    {
+      "node_id": 0,
+      "control": {
+        "ctrl_name": "Building",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 1,
+      "control": {
+        "ctrl_name": "Floor",
+        "ctrl_params": [],
+        "ctrl_arity": 2
+      }
+    },
+    {
+      "node_id": 2,
+      "control": {
+        "ctrl_name": "Hallway",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 3,
+      "control": {
+        "ctrl_name": "Room",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 4,
+      "control": {
+        "ctrl_name": "Visitor",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 5,
+      "control": {
+        "ctrl_name": "PhysicalConnection",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 6,
+      "control": {
+        "ctrl_name": "NoCard",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 7,
+      "control": {
+        "ctrl_name": "Context",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 8,
+      "control": {
+        "ctrl_name": "WorkingHours",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 9,
+      "control": {
+        "ctrl_name": "RulesKeywords",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 10,
+      "control": {
+        "ctrl_name": "Room",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 11,
+      "control": {
+        "ctrl_name": "Room",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 12,
+      "control": {
+        "ctrl_name": "SmartTV",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 13,
+      "control": {
+        "ctrl_name": "Camera",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 14,
+      "control": {
+        "ctrl_name": "Status",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 15,
+      "control": {
+        "ctrl_name": "On",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 16,
+      "control": {
+        "ctrl_name": "Status",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 17,
+      "control": {
+        "ctrl_name": "On",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 18,
+      "control": {
+        "ctrl_name": "Employee",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 19,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 20,
+      "control": {
+        "ctrl_name": "Lero",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 21,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 22,
+      "control": {
+        "ctrl_name": "Second_Floor",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 23,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 24,
+      "control": {
+        "ctrl_name": "Office_T23",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 25,
+      "control": {
+        "ctrl_name": "SmartLight",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 26,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 27,
+      "control": {
+        "ctrl_name": "SL_T23",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 28,
+      "control": {
+        "ctrl_name": "Desktop",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 29,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 30,
+      "control": {
+        "ctrl_name": "Desktop1_T23",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 31,
+      "control": {
+        "ctrl_name": "Desktop",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 32,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 33,
+      "control": {
+        "ctrl_name": "Desktop2_T23",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 34,
+      "control": {
+        "ctrl_name": "Employee",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 35,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 36,
+      "control": {
+        "ctrl_name": "Researcher_T23",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 37,
+      "control": {
+        "ctrl_name": "Room",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 38,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 39,
+      "control": {
+        "ctrl_name": "Office_T24",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 40,
+      "control": {
+        "ctrl_name": "SmartLight",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 41,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 42,
+      "control": {
+        "ctrl_name": "SL_T24",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 43,
+      "control": {
+        "ctrl_name": "Desktop",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 44,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 45,
+      "control": {
+        "ctrl_name": "Desktop1_T24",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 46,
+      "control": {
+        "ctrl_name": "Desktop",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 47,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 48,
+      "control": {
+        "ctrl_name": "Desktop2_T24",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 49,
+      "control": {
+        "ctrl_name": "Employee",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 50,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 51,
+      "control": {
+        "ctrl_name": "Researcher_T24",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 52,
+      "control": {
+        "ctrl_name": "Room",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 53,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 54,
+      "control": {
+        "ctrl_name": "Office_T25",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 55,
+      "control": {
+        "ctrl_name": "SmartLight",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 56,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 57,
+      "control": {
+        "ctrl_name": "SL_T25",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 58,
+      "control": {
+        "ctrl_name": "Desktop",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 59,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 60,
+      "control": {
+        "ctrl_name": "Desktop1_T25",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 61,
+      "control": {
+        "ctrl_name": "Desktop",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 62,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 63,
+      "control": {
+        "ctrl_name": "Desktop2_T25",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 64,
+      "control": {
+        "ctrl_name": "Employee",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 65,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 66,
+      "control": {
+        "ctrl_name": "Researcher_T25",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 67,
+      "control": {
+        "ctrl_name": "Room",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 68,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 69,
+      "control": {
+        "ctrl_name": "Office_T26",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 70,
+      "control": {
+        "ctrl_name": "SmartLight",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 71,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 72,
+      "control": {
+        "ctrl_name": "SL_T26",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 73,
+      "control": {
+        "ctrl_name": "Desktop",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 74,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 75,
+      "control": {
+        "ctrl_name": "Desktop1_T26",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 76,
+      "control": {
+        "ctrl_name": "Desktop",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 77,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 78,
+      "control": {
+        "ctrl_name": "Desktop2_T26",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 79,
+      "control": {
+        "ctrl_name": "Employee",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 80,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 81,
+      "control": {
+        "ctrl_name": "Researcher_T26",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 82,
+      "control": {
+        "ctrl_name": "Room",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 83,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 84,
+      "control": {
+        "ctrl_name": "Office_T27",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 85,
+      "control": {
+        "ctrl_name": "SmartLight",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 86,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 87,
+      "control": {
+        "ctrl_name": "SL_T27",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 88,
+      "control": {
+        "ctrl_name": "Desktop",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 89,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 90,
+      "control": {
+        "ctrl_name": "Desktop1_T27",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 91,
+      "control": {
+        "ctrl_name": "Desktop",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 92,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 93,
+      "control": {
+        "ctrl_name": "Desktop2_T27",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 94,
+      "control": {
+        "ctrl_name": "Employee",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 95,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 96,
+      "control": {
+        "ctrl_name": "Researcher_T27",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 97,
+      "control": {
+        "ctrl_name": "Room",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 98,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 99,
+      "control": {
+        "ctrl_name": "Office_T28",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 100,
+      "control": {
+        "ctrl_name": "SmartLight",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 101,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 102,
+      "control": {
+        "ctrl_name": "SL_T28",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 103,
+      "control": {
+        "ctrl_name": "Desktop",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 104,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 105,
+      "control": {
+        "ctrl_name": "Desktop1_T28",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 106,
+      "control": {
+        "ctrl_name": "Desktop",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 107,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 108,
+      "control": {
+        "ctrl_name": "Desktop2_T28",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 109,
+      "control": {
+        "ctrl_name": "Employee",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 110,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 111,
+      "control": {
+        "ctrl_name": "Researcher_T28",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 112,
+      "control": {
+        "ctrl_name": "Room",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 113,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 114,
+      "control": {
+        "ctrl_name": "Office_T29",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 115,
+      "control": {
+        "ctrl_name": "SmartLight",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 116,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 117,
+      "control": {
+        "ctrl_name": "SL_T29",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 118,
+      "control": {
+        "ctrl_name": "Desktop",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 119,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 120,
+      "control": {
+        "ctrl_name": "Desktop1_T29",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 121,
+      "control": {
+        "ctrl_name": "Desktop",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 122,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 123,
+      "control": {
+        "ctrl_name": "Desktop2_T29",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 124,
+      "control": {
+        "ctrl_name": "Employee",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 125,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 126,
+      "control": {
+        "ctrl_name": "Researcher_T29",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 127,
+      "control": {
+        "ctrl_name": "Room",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 128,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 129,
+      "control": {
+        "ctrl_name": "Office_T30",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 130,
+      "control": {
+        "ctrl_name": "SmartLight",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 131,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 132,
+      "control": {
+        "ctrl_name": "SL_T30",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 133,
+      "control": {
+        "ctrl_name": "Desktop",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 134,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 135,
+      "control": {
+        "ctrl_name": "Desktop1_T30",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 136,
+      "control": {
+        "ctrl_name": "Desktop",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 137,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 138,
+      "control": {
+        "ctrl_name": "Desktop2_T30",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 139,
+      "control": {
+        "ctrl_name": "Employee",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 140,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 141,
+      "control": {
+        "ctrl_name": "Researcher_T30",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 142,
+      "control": {
+        "ctrl_name": "Room",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 143,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 144,
+      "control": {
+        "ctrl_name": "Office_admin",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 145,
+      "control": {
+        "ctrl_name": "SmartLight",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 146,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 147,
+      "control": {
+        "ctrl_name": "SL_admin",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 148,
+      "control": {
+        "ctrl_name": "HVAC",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 149,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 150,
+      "control": {
+        "ctrl_name": "AC_admin",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 151,
+      "control": {
+        "ctrl_name": "Employee",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 152,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 153,
+      "control": {
+        "ctrl_name": "Admin1",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 154,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 155,
+      "control": {
+        "ctrl_name": "Office_BN",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 156,
+      "control": {
+        "ctrl_name": "SmartLight",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 157,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 158,
+      "control": {
+        "ctrl_name": "SL_BN",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 159,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 160,
+      "control": {
+        "ctrl_name": "Prof_BN",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 161,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 162,
+      "control": {
+        "ctrl_name": "SmartTV_BN",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 163,
+      "control": {
+        "ctrl_name": "Microphone",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 164,
+      "control": {
+        "ctrl_name": "Status",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 165,
+      "control": {
+        "ctrl_name": "Off",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 166,
+      "control": {
+        "ctrl_name": "Room",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 167,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 168,
+      "control": {
+        "ctrl_name": "Office_Manager",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 169,
+      "control": {
+        "ctrl_name": "SmartLight",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 170,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 171,
+      "control": {
+        "ctrl_name": "SL_Mngr",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 172,
+      "control": {
+        "ctrl_name": "HVAC",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 173,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 174,
+      "control": {
+        "ctrl_name": "AC_mngr",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 175,
+      "control": {
+        "ctrl_name": "Status",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 176,
+      "control": {
+        "ctrl_name": "On",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 177,
+      "control": {
+        "ctrl_name": "Laptop",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 178,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 179,
+      "control": {
+        "ctrl_name": "Laptop_manager",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 180,
+      "control": {
+        "ctrl_name": "Room",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 181,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 182,
+      "control": {
+        "ctrl_name": "Kitchen",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 183,
+      "control": {
+        "ctrl_name": "Room",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 184,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 185,
+      "control": {
+        "ctrl_name": "MensToilet",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 186,
+      "control": {
+        "ctrl_name": "Room",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 187,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 188,
+      "control": {
+        "ctrl_name": "WomensToilet",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 189,
+      "control": {
+        "ctrl_name": "Room",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 190,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 191,
+      "control": {
+        "ctrl_name": "DisabledToilet",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 192,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 193,
+      "control": {
+        "ctrl_name": "ElevatorsArea",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 194,
+      "control": {
+        "ctrl_name": "Elevator",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 195,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 196,
+      "control": {
+        "ctrl_name": "Elevator1",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 197,
+      "control": {
+        "ctrl_name": "CardReader",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 198,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 199,
+      "control": {
+        "ctrl_name": "CardReader_ElevatorsArea_Hallway",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 200,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 201,
+      "control": {
+        "ctrl_name": "Visitor1",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 202,
+      "control": {
+        "ctrl_name": "Laptop",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 203,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 204,
+      "control": {
+        "ctrl_name": "VisitorLaptop",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 205,
+      "control": {
+        "ctrl_name": "Malware",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 206,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 207,
+      "control": {
+        "ctrl_name": "MalwareX",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 208,
+      "control": {
+        "ctrl_name": "Room",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 209,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 210,
+      "control": {
+        "ctrl_name": "MeetingRoom1",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 211,
+      "control": {
+        "ctrl_name": "SmartLight",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 212,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 213,
+      "control": {
+        "ctrl_name": "SL_MtgRm1",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 214,
+      "control": {
+        "ctrl_name": "Room",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 215,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 216,
+      "control": {
+        "ctrl_name": "MeetingRoom2",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 217,
+      "control": {
+        "ctrl_name": "SmartLight",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 218,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 219,
+      "control": {
+        "ctrl_name": "SL_MtgRm2",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 220,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 221,
+      "control": {
+        "ctrl_name": "Floor_Hallway",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 222,
+      "control": {
+        "ctrl_name": "CCTV",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 223,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 224,
+      "control": {
+        "ctrl_name": "CCTV1",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 225,
+      "control": {
+        "ctrl_name": "SmartLight",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 226,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 227,
+      "control": {
+        "ctrl_name": "SL_hallway",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 228,
+      "control": {
+        "ctrl_name": "BusNetwork",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 229,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 230,
+      "control": {
+        "ctrl_name": "BusNetwork1",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 231,
+      "control": {
+        "ctrl_name": "Data",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 232,
+      "control": {
+        "ctrl_name": "IPNetwork",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 233,
+      "control": {
+        "ctrl_name": "AssetID",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 234,
+      "control": {
+        "ctrl_name": "IPnetwork1",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 235,
+      "control": {
+        "ctrl_name": "PhysicalConnection",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    },
+    {
+      "node_id": 236,
+      "control": {
+        "ctrl_name": "CardRequired",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 237,
+      "control": {
+        "ctrl_name": "EmployeeEnterRoom",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 238,
+      "control": {
+        "ctrl_name": "EmployeeExitRoom",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 239,
+      "control": {
+        "ctrl_name": "ConnectToDesktopViaIP",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 240,
+      "control": {
+        "ctrl_name": "ConnectToSmartTVViaIP",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 241,
+      "control": {
+        "ctrl_name": "DisconnectFromDesktopViaIP",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 242,
+      "control": {
+        "ctrl_name": "DisconnectFromSmartTVViaIP",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 243,
+      "control": {
+        "ctrl_name": "ConnectToComputingDeviceViaBus",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 244,
+      "control": {
+        "ctrl_name": "ConnectToFireAlarmViaBus",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 245,
+      "control": {
+        "ctrl_name": "ConnectToHVACViaBus",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 246,
+      "control": {
+        "ctrl_name": "ConnectToSmartLightViaBus",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 247,
+      "control": {
+        "ctrl_name": "DisconnectFromComputingDeviceViaBus",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 248,
+      "control": {
+        "ctrl_name": "DisconnectFromFireAlarmViaBus",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 249,
+      "control": {
+        "ctrl_name": "DisconnectFromHVACViaBus",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 250,
+      "control": {
+        "ctrl_name": "DisconnectFromSmartLightViaBus",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 251,
+      "control": {
+        "ctrl_name": "SendData",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 252,
+      "control": {
+        "ctrl_name": "SendMalware",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 253,
+      "control": {
+        "ctrl_name": "DisableHVAC",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 254,
+      "control": {
+        "ctrl_name": "ChangeContextToOutSideWorkingHours",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 255,
+      "control": {
+        "ctrl_name": "ChangeContextToWorkingHours",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 256,
+      "control": {
+        "ctrl_name": "TurnOnHVAC",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 257,
+      "control": {
+        "ctrl_name": "TurnOffHVAC",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 258,
+      "control": {
+        "ctrl_name": "TurnOffSmartTV",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 259,
+      "control": {
+        "ctrl_name": "TurnONTVMicrophone",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 260,
+      "control": {
+        "ctrl_name": "TurnOffTVMicrophone",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 261,
+      "control": {
+        "ctrl_name": "TurnOffTVCamera",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 262,
+      "control": {
+        "ctrl_name": "GenerateData",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    },
+    {
+      "node_id": 263,
+      "control": {
+        "ctrl_name": "CollectData",
+        "ctrl_params": [],
+        "ctrl_arity": 0
+      }
+    }
+  ],
+  "place_graph": {
+    "num_regions": 4,
+    "num_nodes": 264,
+    "num_sites": 0,
+    "rn": [
+      {
+        "source": 0,
+        "target": 0
+      },
+      {
+        "source": 1,
+        "target": 5
+      },
+      {
+        "source": 1,
+        "target": 235
+      },
+      {
+        "source": 2,
+        "target": 7
+      },
+      {
+        "source": 3,
+        "target": 9
+      }
+    ],
+    "rs": [],
+    "nn": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 19
+      },
+      {
+        "source": 0,
+        "target": 228
+      },
+      {
+        "source": 0,
+        "target": 232
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 1,
+        "target": 3
+      },
+      {
+        "source": 1,
+        "target": 10
+      },
+      {
+        "source": 1,
+        "target": 11
+      },
+      {
+        "source": 1,
+        "target": 21
+      },
+      {
+        "source": 1,
+        "target": 37
+      },
+      {
+        "source": 1,
+        "target": 52
+      },
+      {
+        "source": 1,
+        "target": 67
+      },
+      {
+        "source": 1,
+        "target": 82
+      },
+      {
+        "source": 1,
+        "target": 97
+      },
+      {
+        "source": 1,
+        "target": 112
+      },
+      {
+        "source": 1,
+        "target": 127
+      },
+      {
+        "source": 1,
+        "target": 142
+      },
+      {
+        "source": 1,
+        "target": 166
+      },
+      {
+        "source": 1,
+        "target": 180
+      },
+      {
+        "source": 1,
+        "target": 183
+      },
+      {
+        "source": 1,
+        "target": 186
+      },
+      {
+        "source": 1,
+        "target": 189
+      },
+      {
+        "source": 1,
+        "target": 208
+      },
+      {
+        "source": 1,
+        "target": 214
+      },
+      {
+        "source": 2,
+        "target": 220
+      },
+      {
+        "source": 2,
+        "target": 222
+      },
+      {
+        "source": 2,
+        "target": 225
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 3,
+        "target": 23
+      },
+      {
+        "source": 3,
+        "target": 25
+      },
+      {
+        "source": 3,
+        "target": 28
+      },
+      {
+        "source": 3,
+        "target": 31
+      },
+      {
+        "source": 3,
+        "target": 34
+      },
+      {
+        "source": 4,
+        "target": 200
+      },
+      {
+        "source": 4,
+        "target": 202
+      },
+      {
+        "source": 5,
+        "target": 6
+      },
+      {
+        "source": 7,
+        "target": 8
+      },
+      {
+        "source": 9,
+        "target": 237
+      },
+      {
+        "source": 9,
+        "target": 238
+      },
+      {
+        "source": 9,
+        "target": 239
+      },
+      {
+        "source": 9,
+        "target": 240
+      },
+      {
+        "source": 9,
+        "target": 241
+      },
+      {
+        "source": 9,
+        "target": 242
+      },
+      {
+        "source": 9,
+        "target": 243
+      },
+      {
+        "source": 9,
+        "target": 244
+      },
+      {
+        "source": 9,
+        "target": 245
+      },
+      {
+        "source": 9,
+        "target": 246
+      },
+      {
+        "source": 9,
+        "target": 247
+      },
+      {
+        "source": 9,
+        "target": 248
+      },
+      {
+        "source": 9,
+        "target": 249
+      },
+      {
+        "source": 9,
+        "target": 250
+      },
+      {
+        "source": 9,
+        "target": 251
+      },
+      {
+        "source": 9,
+        "target": 252
+      },
+      {
+        "source": 9,
+        "target": 253
+      },
+      {
+        "source": 9,
+        "target": 254
+      },
+      {
+        "source": 9,
+        "target": 255
+      },
+      {
+        "source": 9,
+        "target": 256
+      },
+      {
+        "source": 9,
+        "target": 257
+      },
+      {
+        "source": 9,
+        "target": 258
+      },
+      {
+        "source": 9,
+        "target": 259
+      },
+      {
+        "source": 9,
+        "target": 260
+      },
+      {
+        "source": 9,
+        "target": 261
+      },
+      {
+        "source": 9,
+        "target": 262
+      },
+      {
+        "source": 9,
+        "target": 263
+      },
+      {
+        "source": 10,
+        "target": 192
+      },
+      {
+        "source": 10,
+        "target": 194
+      },
+      {
+        "source": 10,
+        "target": 197
+      },
+      {
+        "source": 11,
+        "target": 12
+      },
+      {
+        "source": 11,
+        "target": 18
+      },
+      {
+        "source": 11,
+        "target": 154
+      },
+      {
+        "source": 11,
+        "target": 156
+      },
+      {
+        "source": 12,
+        "target": 13
+      },
+      {
+        "source": 12,
+        "target": 16
+      },
+      {
+        "source": 12,
+        "target": 161
+      },
+      {
+        "source": 12,
+        "target": 163
+      },
+      {
+        "source": 13,
+        "target": 14
+      },
+      {
+        "source": 14,
+        "target": 15
+      },
+      {
+        "source": 16,
+        "target": 17
+      },
+      {
+        "source": 18,
+        "target": 159
+      },
+      {
+        "source": 19,
+        "target": 20
+      },
+      {
+        "source": 21,
+        "target": 22
+      },
+      {
+        "source": 23,
+        "target": 24
+      },
+      {
+        "source": 25,
+        "target": 26
+      },
+      {
+        "source": 26,
+        "target": 27
+      },
+      {
+        "source": 28,
+        "target": 29
+      },
+      {
+        "source": 29,
+        "target": 30
+      },
+      {
+        "source": 31,
+        "target": 32
+      },
+      {
+        "source": 32,
+        "target": 33
+      },
+      {
+        "source": 34,
+        "target": 35
+      },
+      {
+        "source": 35,
+        "target": 36
+      },
+      {
+        "source": 37,
+        "target": 38
+      },
+      {
+        "source": 37,
+        "target": 40
+      },
+      {
+        "source": 37,
+        "target": 43
+      },
+      {
+        "source": 37,
+        "target": 46
+      },
+      {
+        "source": 37,
+        "target": 49
+      },
+      {
+        "source": 38,
+        "target": 39
+      },
+      {
+        "source": 40,
+        "target": 41
+      },
+      {
+        "source": 41,
+        "target": 42
+      },
+      {
+        "source": 43,
+        "target": 44
+      },
+      {
+        "source": 44,
+        "target": 45
+      },
+      {
+        "source": 46,
+        "target": 47
+      },
+      {
+        "source": 47,
+        "target": 48
+      },
+      {
+        "source": 49,
+        "target": 50
+      },
+      {
+        "source": 50,
+        "target": 51
+      },
+      {
+        "source": 52,
+        "target": 53
+      },
+      {
+        "source": 52,
+        "target": 55
+      },
+      {
+        "source": 52,
+        "target": 58
+      },
+      {
+        "source": 52,
+        "target": 61
+      },
+      {
+        "source": 52,
+        "target": 64
+      },
+      {
+        "source": 53,
+        "target": 54
+      },
+      {
+        "source": 55,
+        "target": 56
+      },
+      {
+        "source": 56,
+        "target": 57
+      },
+      {
+        "source": 58,
+        "target": 59
+      },
+      {
+        "source": 59,
+        "target": 60
+      },
+      {
+        "source": 61,
+        "target": 62
+      },
+      {
+        "source": 62,
+        "target": 63
+      },
+      {
+        "source": 64,
+        "target": 65
+      },
+      {
+        "source": 65,
+        "target": 66
+      },
+      {
+        "source": 67,
+        "target": 68
+      },
+      {
+        "source": 67,
+        "target": 70
+      },
+      {
+        "source": 67,
+        "target": 73
+      },
+      {
+        "source": 67,
+        "target": 76
+      },
+      {
+        "source": 67,
+        "target": 79
+      },
+      {
+        "source": 68,
+        "target": 69
+      },
+      {
+        "source": 70,
+        "target": 71
+      },
+      {
+        "source": 71,
+        "target": 72
+      },
+      {
+        "source": 73,
+        "target": 74
+      },
+      {
+        "source": 74,
+        "target": 75
+      },
+      {
+        "source": 76,
+        "target": 77
+      },
+      {
+        "source": 77,
+        "target": 78
+      },
+      {
+        "source": 79,
+        "target": 80
+      },
+      {
+        "source": 80,
+        "target": 81
+      },
+      {
+        "source": 82,
+        "target": 83
+      },
+      {
+        "source": 82,
+        "target": 85
+      },
+      {
+        "source": 82,
+        "target": 88
+      },
+      {
+        "source": 82,
+        "target": 91
+      },
+      {
+        "source": 82,
+        "target": 94
+      },
+      {
+        "source": 83,
+        "target": 84
+      },
+      {
+        "source": 85,
+        "target": 86
+      },
+      {
+        "source": 86,
+        "target": 87
+      },
+      {
+        "source": 88,
+        "target": 89
+      },
+      {
+        "source": 89,
+        "target": 90
+      },
+      {
+        "source": 91,
+        "target": 92
+      },
+      {
+        "source": 92,
+        "target": 93
+      },
+      {
+        "source": 94,
+        "target": 95
+      },
+      {
+        "source": 95,
+        "target": 96
+      },
+      {
+        "source": 97,
+        "target": 98
+      },
+      {
+        "source": 97,
+        "target": 100
+      },
+      {
+        "source": 97,
+        "target": 103
+      },
+      {
+        "source": 97,
+        "target": 106
+      },
+      {
+        "source": 97,
+        "target": 109
+      },
+      {
+        "source": 98,
+        "target": 99
+      },
+      {
+        "source": 100,
+        "target": 101
+      },
+      {
+        "source": 101,
+        "target": 102
+      },
+      {
+        "source": 103,
+        "target": 104
+      },
+      {
+        "source": 104,
+        "target": 105
+      },
+      {
+        "source": 106,
+        "target": 107
+      },
+      {
+        "source": 107,
+        "target": 108
+      },
+      {
+        "source": 109,
+        "target": 110
+      },
+      {
+        "source": 110,
+        "target": 111
+      },
+      {
+        "source": 112,
+        "target": 113
+      },
+      {
+        "source": 112,
+        "target": 115
+      },
+      {
+        "source": 112,
+        "target": 118
+      },
+      {
+        "source": 112,
+        "target": 121
+      },
+      {
+        "source": 112,
+        "target": 124
+      },
+      {
+        "source": 113,
+        "target": 114
+      },
+      {
+        "source": 115,
+        "target": 116
+      },
+      {
+        "source": 116,
+        "target": 117
+      },
+      {
+        "source": 118,
+        "target": 119
+      },
+      {
+        "source": 119,
+        "target": 120
+      },
+      {
+        "source": 121,
+        "target": 122
+      },
+      {
+        "source": 122,
+        "target": 123
+      },
+      {
+        "source": 124,
+        "target": 125
+      },
+      {
+        "source": 125,
+        "target": 126
+      },
+      {
+        "source": 127,
+        "target": 128
+      },
+      {
+        "source": 127,
+        "target": 130
+      },
+      {
+        "source": 127,
+        "target": 133
+      },
+      {
+        "source": 127,
+        "target": 136
+      },
+      {
+        "source": 127,
+        "target": 139
+      },
+      {
+        "source": 128,
+        "target": 129
+      },
+      {
+        "source": 130,
+        "target": 131
+      },
+      {
+        "source": 131,
+        "target": 132
+      },
+      {
+        "source": 133,
+        "target": 134
+      },
+      {
+        "source": 134,
+        "target": 135
+      },
+      {
+        "source": 136,
+        "target": 137
+      },
+      {
+        "source": 137,
+        "target": 138
+      },
+      {
+        "source": 139,
+        "target": 140
+      },
+      {
+        "source": 140,
+        "target": 141
+      },
+      {
+        "source": 142,
+        "target": 143
+      },
+      {
+        "source": 142,
+        "target": 145
+      },
+      {
+        "source": 142,
+        "target": 148
+      },
+      {
+        "source": 142,
+        "target": 151
+      },
+      {
+        "source": 143,
+        "target": 144
+      },
+      {
+        "source": 145,
+        "target": 146
+      },
+      {
+        "source": 146,
+        "target": 147
+      },
+      {
+        "source": 148,
+        "target": 149
+      },
+      {
+        "source": 149,
+        "target": 150
+      },
+      {
+        "source": 151,
+        "target": 152
+      },
+      {
+        "source": 152,
+        "target": 153
+      },
+      {
+        "source": 154,
+        "target": 155
+      },
+      {
+        "source": 156,
+        "target": 157
+      },
+      {
+        "source": 157,
+        "target": 158
+      },
+      {
+        "source": 159,
+        "target": 160
+      },
+      {
+        "source": 161,
+        "target": 162
+      },
+      {
+        "source": 163,
+        "target": 164
+      },
+      {
+        "source": 164,
+        "target": 165
+      },
+      {
+        "source": 166,
+        "target": 167
+      },
+      {
+        "source": 166,
+        "target": 169
+      },
+      {
+        "source": 166,
+        "target": 172
+      },
+      {
+        "source": 166,
+        "target": 177
+      },
+      {
+        "source": 167,
+        "target": 168
+      },
+      {
+        "source": 169,
+        "target": 170
+      },
+      {
+        "source": 170,
+        "target": 171
+      },
+      {
+        "source": 172,
+        "target": 173
+      },
+      {
+        "source": 172,
+        "target": 175
+      },
+      {
+        "source": 173,
+        "target": 174
+      },
+      {
+        "source": 175,
+        "target": 176
+      },
+      {
+        "source": 177,
+        "target": 178
+      },
+      {
+        "source": 178,
+        "target": 179
+      },
+      {
+        "source": 180,
+        "target": 181
+      },
+      {
+        "source": 181,
+        "target": 182
+      },
+      {
+        "source": 183,
+        "target": 184
+      },
+      {
+        "source": 184,
+        "target": 185
+      },
+      {
+        "source": 186,
+        "target": 187
+      },
+      {
+        "source": 187,
+        "target": 188
+      },
+      {
+        "source": 189,
+        "target": 190
+      },
+      {
+        "source": 190,
+        "target": 191
+      },
+      {
+        "source": 192,
+        "target": 193
+      },
+      {
+        "source": 194,
+        "target": 195
+      },
+      {
+        "source": 195,
+        "target": 196
+      },
+      {
+        "source": 197,
+        "target": 198
+      },
+      {
+        "source": 198,
+        "target": 199
+      },
+      {
+        "source": 200,
+        "target": 201
+      },
+      {
+        "source": 202,
+        "target": 203
+      },
+      {
+        "source": 202,
+        "target": 205
+      },
+      {
+        "source": 203,
+        "target": 204
+      },
+      {
+        "source": 205,
+        "target": 206
+      },
+      {
+        "source": 206,
+        "target": 207
+      },
+      {
+        "source": 208,
+        "target": 209
+      },
+      {
+        "source": 208,
+        "target": 211
+      },
+      {
+        "source": 209,
+        "target": 210
+      },
+      {
+        "source": 211,
+        "target": 212
+      },
+      {
+        "source": 212,
+        "target": 213
+      },
+      {
+        "source": 214,
+        "target": 215
+      },
+      {
+        "source": 214,
+        "target": 217
+      },
+      {
+        "source": 215,
+        "target": 216
+      },
+      {
+        "source": 217,
+        "target": 218
+      },
+      {
+        "source": 218,
+        "target": 219
+      },
+      {
+        "source": 220,
+        "target": 221
+      },
+      {
+        "source": 222,
+        "target": 223
+      },
+      {
+        "source": 223,
+        "target": 224
+      },
+      {
+        "source": 225,
+        "target": 226
+      },
+      {
+        "source": 226,
+        "target": 227
+      },
+      {
+        "source": 228,
+        "target": 229
+      },
+      {
+        "source": 228,
+        "target": 231
+      },
+      {
+        "source": 229,
+        "target": 230
+      },
+      {
+        "source": 232,
+        "target": 233
+      },
+      {
+        "source": 233,
+        "target": 234
+      },
+      {
+        "source": 235,
+        "target": 236
+      }
+    ],
+    "ns": []
+  },
+  "link_graph": [
+    {
+      "inner": [],
+      "outer": [],
+      "ports": [
+        {
+          "node_id": 202,
+          "port_arity": 1
+        }
+      ]
+    },
+    {
+      "inner": [],
+      "outer": [
+        {
+          "name": "busNet"
+        }
+      ],
+      "ports": [
+        {
+          "node_id": 25,
+          "port_arity": 1
+        },
+        {
+          "node_id": 40,
+          "port_arity": 1
+        },
+        {
+          "node_id": 55,
+          "port_arity": 1
+        },
+        {
+          "node_id": 70,
+          "port_arity": 1
+        },
+        {
+          "node_id": 85,
+          "port_arity": 1
+        },
+        {
+          "node_id": 100,
+          "port_arity": 1
+        },
+        {
+          "node_id": 115,
+          "port_arity": 1
+        },
+        {
+          "node_id": 130,
+          "port_arity": 1
+        },
+        {
+          "node_id": 145,
+          "port_arity": 1
+        },
+        {
+          "node_id": 148,
+          "port_arity": 1
+        },
+        {
+          "node_id": 156,
+          "port_arity": 1
+        },
+        {
+          "node_id": 169,
+          "port_arity": 1
+        },
+        {
+          "node_id": 172,
+          "port_arity": 1
+        },
+        {
+          "node_id": 197,
+          "port_arity": 1
+        },
+        {
+          "node_id": 211,
+          "port_arity": 1
+        },
+        {
+          "node_id": 217,
+          "port_arity": 1
+        },
+        {
+          "node_id": 222,
+          "port_arity": 1
+        },
+        {
+          "node_id": 225,
+          "port_arity": 1
+        },
+        {
+          "node_id": 228,
+          "port_arity": 1
+        }
+      ]
+    },
+    {
+      "inner": [],
+      "outer": [
+        {
+          "name": "c"
+        }
+      ],
+      "ports": [
+        {
+          "node_id": 7,
+          "port_arity": 1
+        }
+      ]
+    },
+    {
+      "inner": [],
+      "outer": [
+        {
+          "name": "elevator"
+        }
+      ],
+      "ports": [
+        {
+          "node_id": 194,
+          "port_arity": 1
+        }
+      ]
+    },
+    {
+      "inner": [],
+      "outer": [
+        {
+          "name": "hallway"
+        }
+      ],
+      "ports": [
+        {
+          "node_id": 2,
+          "port_arity": 1
+        },
+        {
+          "node_id": 3,
+          "port_arity": 1
+        },
+        {
+          "node_id": 5,
+          "port_arity": 1
+        },
+        {
+          "node_id": 10,
+          "port_arity": 1
+        },
+        {
+          "node_id": 11,
+          "port_arity": 1
+        },
+        {
+          "node_id": 37,
+          "port_arity": 1
+        },
+        {
+          "node_id": 52,
+          "port_arity": 1
+        },
+        {
+          "node_id": 67,
+          "port_arity": 1
+        },
+        {
+          "node_id": 82,
+          "port_arity": 1
+        },
+        {
+          "node_id": 97,
+          "port_arity": 1
+        },
+        {
+          "node_id": 112,
+          "port_arity": 1
+        },
+        {
+          "node_id": 127,
+          "port_arity": 1
+        },
+        {
+          "node_id": 142,
+          "port_arity": 1
+        },
+        {
+          "node_id": 166,
+          "port_arity": 1
+        },
+        {
+          "node_id": 180,
+          "port_arity": 1
+        },
+        {
+          "node_id": 183,
+          "port_arity": 1
+        },
+        {
+          "node_id": 186,
+          "port_arity": 1
+        },
+        {
+          "node_id": 189,
+          "port_arity": 1
+        },
+        {
+          "node_id": 208,
+          "port_arity": 1
+        },
+        {
+          "node_id": 214,
+          "port_arity": 1
+        },
+        {
+          "node_id": 235,
+          "port_arity": 1
+        }
+      ]
+    },
+    {
+      "inner": [],
+      "outer": [
+        {
+          "name": "ipNet"
+        }
+      ],
+      "ports": [
+        {
+          "node_id": 12,
+          "port_arity": 1
+        },
+        {
+          "node_id": 28,
+          "port_arity": 1
+        },
+        {
+          "node_id": 31,
+          "port_arity": 1
+        },
+        {
+          "node_id": 43,
+          "port_arity": 1
+        },
+        {
+          "node_id": 46,
+          "port_arity": 1
+        },
+        {
+          "node_id": 58,
+          "port_arity": 1
+        },
+        {
+          "node_id": 61,
+          "port_arity": 1
+        },
+        {
+          "node_id": 73,
+          "port_arity": 1
+        },
+        {
+          "node_id": 76,
+          "port_arity": 1
+        },
+        {
+          "node_id": 88,
+          "port_arity": 1
+        },
+        {
+          "node_id": 91,
+          "port_arity": 1
+        },
+        {
+          "node_id": 103,
+          "port_arity": 1
+        },
+        {
+          "node_id": 106,
+          "port_arity": 1
+        },
+        {
+          "node_id": 118,
+          "port_arity": 1
+        },
+        {
+          "node_id": 121,
+          "port_arity": 1
+        },
+        {
+          "node_id": 133,
+          "port_arity": 1
+        },
+        {
+          "node_id": 136,
+          "port_arity": 1
+        },
+        {
+          "node_id": 177,
+          "port_arity": 1
+        },
+        {
+          "node_id": 232,
+          "port_arity": 1
+        }
+      ]
+    },
+    {
+      "inner": [],
+      "outer": [
+        {
+          "name": "lowerFloor"
+        }
+      ],
+      "ports": [
+        {
+          "node_id": 1,
+          "port_arity": 1
+        }
+      ]
+    },
+    {
+      "inner": [],
+      "outer": [
+        {
+          "name": "upperFloor"
+        }
+      ],
+      "ports": [
+        {
+          "node_id": 1,
+          "port_arity": 1
+        }
+      ]
+    }
+  ]
+}

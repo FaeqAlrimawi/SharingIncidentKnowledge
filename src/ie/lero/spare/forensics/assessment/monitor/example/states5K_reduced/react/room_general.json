@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "node_id": 0,
+      "control": {
+        "ctrl_name": "Room",
+        "ctrl_params": [],
+        "ctrl_arity": 1
+      }
+    }
+  ],
+  "place_graph": {
+    "num_regions": 1,
+    "num_nodes": 1,
+    "num_sites": 1,
+    "rn": [
+      {
+        "source": 0,
+        "target": 0
+      }
+    ],
+    "rs": [],
+    "nn": [],
+    "ns": [
+      {
+        "source": 0,
+        "target": 0
+      }
+    ]
+  },
+  "link_graph": [
+    {
+      "inner": [],
+      "outer": [
+        {
+          "name": "hallway"
+        }
+      ],
+      "ports": [
+        {
+          "node_id": 0,
+          "port_arity": 1
+        }
+      ]
+    }
+  ]
+}
