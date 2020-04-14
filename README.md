@@ -100,9 +100,9 @@ The technique assesses the availability of monitors that are needed to observe a
 
 The main classes implementing this technique can be found under: ie.lero.spare.forensics.assessment
 
->- The input is a set of generated traces.
+>- It takes as input a set of generated traces.
 
->- The output is two subsets of given traces. One subset that the system can monitor along with system monitors. Another subset of traces that the system cannot monitor along with suggest monitors.
+>- It outputs two subsets of the given traces. One subset that the system can monitor along with system monitors. Another subset of traces that the system cannot monitor along with suggest monitors.
 
 
 [4]:../../tree/master/demo
