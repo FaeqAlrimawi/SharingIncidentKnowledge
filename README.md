@@ -104,6 +104,8 @@ The main classes implementing this technique can be found under: ie.lero.spare.f
 
 >- It outputs two subsets of the given traces. One subset that the system can monitor along with system monitors. Another subset of traces that the system cannot monitor along with suggest monitors.
 
+An example of the execution of the technique is provided in class [MonitorExample.java][12]
+
 
 [4]:../../tree/master/demo
 [5]:../../tree/master/executable_jar/DemoData/scenario1_extraction/
@@ -119,3 +121,4 @@ The main classes implementing this technique can be found under: ie.lero.spare.f
 
 
 [11]:../../tree/master/src/ie/lero/spare/main/ScenarioExecutor.java
+[12]:../../tree/master/src/ie/lero/spare/forensics/assessment/monitor/test/MonitorExample.java
